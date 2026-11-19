@@ -131,6 +131,8 @@ docs/                   预览截图
 
 `tools/bank_names.py`、`tools/scan_audio.py` 是摸底用的索引（分别列出各 bank 与各 `.assets` 里的 clip 名），日常重建不需要重跑。
 
-## 注意
+## 授权与致谢
 
-音频版权归 Battlestate Games，提取物仅供自己玩，不要分发。
+- **字体**：Noto Serif SC（SIL Open Font License 1.1），子集化后内嵌于 `game.html`，许可全文见 `fonts/OFL.txt`
+- **游戏音频**：版权归 Battlestate Games，不在本仓库内，提取物仅供自己玩，不要分发
+- 仓库代码本身未声明开源许可
