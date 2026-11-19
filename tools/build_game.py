@@ -13,6 +13,17 @@ OUT = os.path.join(PROJECT, "game-standalone.html" if os.environ.get("EMBED_AUDI
 EMBED = os.environ.get("EMBED_AUDIO") == "1"
 manifest = json.load(open(MANIFEST, encoding="utf-8"))
 ACH_JS = open(os.path.join(HERE, "achievements.js"), encoding="utf-8").read()
+
+# 声学分组：同一录音 / 高度相似的枪互斥，不同时出现在选项里
+GROUPS = json.load(open(os.path.join(HERE, "sound_groups.json"), encoding="utf-8"))
+TWINS = {}
+for grp in GROUPS.get("groups", []):
+    for gid in grp["members"]:
+        TWINS.setdefault(gid, set()).update(m for m in grp["members"] if m != gid)
+for pair in GROUPS.get("similarPairs", []):
+    TWINS.setdefault(pair["a"], set()).add(pair["b"])
+    TWINS.setdefault(pair["b"], set()).add(pair["a"])
+TWINS = {k: sorted(v) for k, v in TWINS.items()}
 hints = json.load(open(HINTS, encoding="utf-8"))
 font_b64 = open(FONT_B64, encoding="utf-8").read().strip() if os.path.exists(FONT_B64) else ""
 
@@ -65,6 +76,7 @@ for gun in manifest:
         "category": FOLD.get(gun["category"], gun["category"]),
         "rpm": gun.get("rpm"),
         "hint": hints.get(gun["id"], {}).get("hint", ""),
+        "twins": TWINS.get(gun["id"], []),
         "groups": [
             {"key": g["key"], "label": g["label"].split("（")[0],
              "clips": [{"file": clip_src(c), "duration": c["duration"]} for c in g["clips"]]}
@@ -724,7 +736,10 @@ function newQuestion() {
   state.lastGun = gun.id;
   var group = gun.groups.filter(function (x) { return x.key === preferred; })[0] || chooseGroup(gun);
   var clip = pick(group.clips);
-  var others = shuffle(state.pool.filter(function (g) { return g.id !== gun.id; })).slice(0, 3);
+  var twins = gun.twins || [];
+  var others = shuffle(state.pool.filter(function (g) {
+    return g.id !== gun.id && twins.indexOf(g.id) < 0;
+  })).slice(0, 3);
   if (others.length < 3) {
     shuffle(GUNS).forEach(function (g) { if (others.length < 3 && g.id !== gun.id && others.indexOf(g) < 0) others.push(g); });
   }

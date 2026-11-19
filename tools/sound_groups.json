@@ -1,0 +1,32 @@
+{
+ "identicalThreshold": 0.95,
+ "similarThreshold": 0.78,
+ "groups": [
+  {
+   "id": "g14",
+   "members": [
+    "ak74",
+    "ak74m"
+   ]
+  }
+ ],
+ "similarPairs": [
+  {
+   "a": "ak101",
+   "b": "ak102",
+   "score": 0.886
+  }
+ ],
+ "verified": [
+  {
+   "a": "ak74",
+   "b": "ak74m",
+   "score": 0.9788
+  },
+  {
+   "a": "ak101",
+   "b": "ak102",
+   "score": 0.8858
+  }
+ ]
+}
