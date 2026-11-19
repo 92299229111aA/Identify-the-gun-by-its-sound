@@ -78,6 +78,20 @@
 
 面板底部「重置进度」会同时清空成就与最佳连击。
 
+## 单文件版（零配置分发）
+
+如果只想发一个文件给别人，构建内嵌音频的独立版本：
+
+```powershell
+$env:EMBED_AUDIO = "1"
+.venv\Scripts\python.exe tools\build_game.py    # 产出 game-standalone.html
+Remove-Item Env:EMBED_AUDIO
+```
+
+产物约 33 MB（414 条音频全部 base64 内嵌），双击即玩、不需要服务器、不需要 Python，进度同样存在浏览器本地。
+
+> 该文件等同于把游戏原声一起分发，版权归 Battlestate Games，**因此被 `.gitignore` 排除**，请自行决定分发范围。
+
 ## 目录结构
 
 ```

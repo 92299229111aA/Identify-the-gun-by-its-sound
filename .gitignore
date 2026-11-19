@@ -1,7 +1,10 @@
-# 本地虚拟环境（UnityPy / soundfile / ffmpeg）
+﻿# 本地虚拟环境（UnityPy / soundfile / ffmpeg）
 .venv/
 __pycache__/
 *.pyc
+
+# 单文件版：音频内嵌，等同于分发游戏原声，不进仓库
+game-standalone.html
 
 # 游戏原声：版权归 Battlestate Games，不随仓库分发
 # 只保留 manifest.json（元数据），重新生成方式见 README

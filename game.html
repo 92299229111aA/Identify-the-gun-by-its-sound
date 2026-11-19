@@ -596,6 +596,11 @@ var state = {
 try {
   var saved = parseInt(localStorage.getItem("tarkovQuizBest") || "0", 10);
   if (!isNaN(saved)) state.best = saved;
+  var life = JSON.parse(localStorage.getItem("tarkovQuizStatsV1") || "null");
+  if (life) {
+    state.total = life.answered || 0;
+    state.correct = life.correct || 0;
+  }
 } catch (e) {}
 
 function pick(a) { return a[Math.floor(Math.random() * a.length)]; }
@@ -669,7 +674,7 @@ function playClip() {
   var q = state.question;
   if (!q) return;
   audio.pause();
-  audio.src = "sounds/" + q.clip.file.replace(/^sounds\//, "");
+  audio.src = q.clip.file;
   audio.currentTime = 0;
   var p = audio.play();
   document.getElementById("play").classList.add("on");
@@ -725,6 +730,9 @@ function updateStats() {
   document.getElementById("acc").textContent = state.total ? Math.round((state.correct / state.total) * 100) + "%" : "—";
   document.getElementById("streak").textContent = state.streak;
   document.getElementById("best").textContent = state.best;
+  try {
+    localStorage.setItem("tarkovQuizStatsV1", JSON.stringify({ answered: state.total, correct: state.correct }));
+  } catch (e) {}
 }
 
 function next() {

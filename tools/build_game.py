@@ -8,8 +8,9 @@ PROJECT = os.path.dirname(HERE)
 MANIFEST = os.path.join(PROJECT, "sounds", "manifest.json")
 HINTS = os.path.join(HERE, "hints.json")
 FONT_B64 = os.path.join(PROJECT, "fonts", "subset.b64")
-OUT = os.path.join(PROJECT, "game.html")
+OUT = os.path.join(PROJECT, "game-standalone.html" if os.environ.get("EMBED_AUDIO") == "1" else "game.html")
 
+EMBED = os.environ.get("EMBED_AUDIO") == "1"
 manifest = json.load(open(MANIFEST, encoding="utf-8"))
 ACH_JS = open(os.path.join(HERE, "achievements.js"), encoding="utf-8").read()
 hints = json.load(open(HINTS, encoding="utf-8"))
@@ -46,6 +47,13 @@ FULL = {
 
 FOLD = {"mg": "rifle", "special": "sniper"}
 
+def clip_src(clip):
+    if not EMBED:
+        return clip["file"]
+    path = os.path.join(PROJECT, clip["file"].replace("/", os.sep))
+    with open(path, "rb") as handle:
+        return "data:audio/ogg;base64," + base64.b64encode(handle.read()).decode("ascii")
+
 data = []
 for gun in manifest:
     data.append({
@@ -59,7 +67,7 @@ for gun in manifest:
         "hint": hints.get(gun["id"], {}).get("hint", ""),
         "groups": [
             {"key": g["key"], "label": g["label"].split("（")[0],
-             "clips": [{"file": c["file"], "duration": c["duration"]} for c in g["clips"]]}
+             "clips": [{"file": clip_src(c), "duration": c["duration"]} for c in g["clips"]]}
             for g in gun["groups"]
         ],
     })
@@ -669,6 +677,11 @@ var state = {
 try {
   var saved = parseInt(localStorage.getItem("tarkovQuizBest") || "0", 10);
   if (!isNaN(saved)) state.best = saved;
+  var life = JSON.parse(localStorage.getItem("tarkovQuizStatsV1") || "null");
+  if (life) {
+    state.total = life.answered || 0;
+    state.correct = life.correct || 0;
+  }
 } catch (e) {}
 
 function pick(a) { return a[Math.floor(Math.random() * a.length)]; }
@@ -742,7 +755,7 @@ function playClip() {
   var q = state.question;
   if (!q) return;
   audio.pause();
-  audio.src = "sounds/" + q.clip.file.replace(/^sounds\//, "");
+  audio.src = q.clip.file;
   audio.currentTime = 0;
   var p = audio.play();
   document.getElementById("play").classList.add("on");
@@ -798,6 +811,9 @@ function updateStats() {
   document.getElementById("acc").textContent = state.total ? Math.round((state.correct / state.total) * 100) + "%" : "—";
   document.getElementById("streak").textContent = state.streak;
   document.getElementById("best").textContent = state.best;
+  try {
+    localStorage.setItem("tarkovQuizStatsV1", JSON.stringify({ answered: state.total, correct: state.correct }));
+  } catch (e) {}
 }
 
 function next() {
