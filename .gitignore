@@ -4,6 +4,7 @@ __pycache__/
 *.pyc
 
 # 单文件版：音频内嵌，等同于分发游戏原声，不进仓库
+dist/
 game-standalone.html
 
 # 游戏原声：版权归 Battlestate Games，不随仓库分发
