@@ -1,0 +1,557 @@
+{
+ "vector": {
+  "close": 32,
+  "sil": 32,
+  "loop": 0
+ },
+ "scar": {
+  "close": 32,
+  "sil": 32,
+  "loop": 0
+ },
+ "avt": {
+  "close": 32,
+  "sil": 0,
+  "loop": 0
+ },
+ "vss": {
+  "close": 16,
+  "sil": 0,
+  "loop": 0
+ },
+ "vityaz": {
+  "close": 16,
+  "sil": 15,
+  "loop": 0
+ },
+ "utes": {
+  "close": 16,
+  "sil": 0,
+  "loop": 2
+ },
+ "ump": {
+  "close": 16,
+  "sil": 16,
+  "loop": 0
+ },
+ "rpk16": {
+  "close": 16,
+  "sil": 16,
+  "loop": 9
+ },
+ "ppsh": {
+  "close": 16,
+  "sil": 0,
+  "loop": 5
+ },
+ "p90": {
+  "close": 16,
+  "sil": 16,
+  "loop": 9
+ },
+ "mutant": {
+  "close": 16,
+  "sil": 16,
+  "loop": 0
+ },
+ "mpx": {
+  "close": 16,
+  "sil": 16,
+  "loop": 0
+ },
+ "mp9n": {
+  "close": 16,
+  "sil": 16,
+  "loop": 9
+ },
+ "mp9": {
+  "close": 16,
+  "sil": 16,
+  "loop": 9
+ },
+ "mp7": {
+  "close": 16,
+  "sil": 16,
+  "loop": 9
+ },
+ "mp5": {
+  "close": 16,
+  "sil": 16,
+  "loop": 0
+ },
+ "mdr308": {
+  "close": 16,
+  "sil": 16,
+  "loop": 9
+ },
+ "mdr": {
+  "close": 16,
+  "sil": 16,
+  "loop": 9
+ },
+ "mcx": {
+  "close": 16,
+  "sil": 16,
+  "loop": 0
+ },
+ "m4a1": {
+  "close": 16,
+  "sil": 16,
+  "loop": 0
+ },
+ "kedr": {
+  "close": 16,
+  "sil": 16,
+  "loop": 0
+ },
+ "hk416": {
+  "close": 16,
+  "sil": 16,
+  "loop": 8
+ },
+ "glock18": {
+  "close": 16,
+  "sil": 0,
+  "loop": 0
+ },
+ "fal": {
+  "close": 16,
+  "sil": 16,
+  "loop": 8
+ },
+ "aug": {
+  "close": 16,
+  "sil": 16,
+  "loop": 8
+ },
+ "ash12": {
+  "close": 16,
+  "sil": 16,
+  "loop": 9
+ },
+ "aps": {
+  "close": 16,
+  "sil": 16,
+  "loop": 0
+ },
+ "aksu": {
+  "close": 16,
+  "sil": 16,
+  "loop": 0
+ },
+ "akm": {
+  "close": 16,
+  "sil": 16,
+  "loop": 0
+ },
+ "ak74m": {
+  "close": 16,
+  "sil": 15,
+  "loop": 8
+ },
+ "ak74": {
+  "close": 16,
+  "sil": 16,
+  "loop": 10
+ },
+ "ak102": {
+  "close": 16,
+  "sil": 16,
+  "loop": 9
+ },
+ "ak101": {
+  "close": 16,
+  "sil": 16,
+  "loop": 9
+ },
+ "ags": {
+  "close": 8,
+  "sil": 0,
+  "loop": 3
+ },
+ "v40": {
+  "close": 6,
+  "sil": 0,
+  "loop": 0
+ },
+ "toz": {
+  "close": 6,
+  "sil": 0,
+  "loop": 0
+ },
+ "svd": {
+  "close": 4,
+  "sil": 2,
+  "loop": 0
+ },
+ "flaregun": {
+  "close": 4,
+  "sil": 0,
+  "loop": 0
+ },
+ "rem870": {
+  "close": 3,
+  "sil": 0,
+  "loop": 0
+ },
+ "vpo215": {
+  "close": 2,
+  "sil": 2,
+  "loop": 0
+ },
+ "tx15": {
+  "close": 2,
+  "sil": 2,
+  "loop": 0
+ },
+ "t5000": {
+  "close": 2,
+  "sil": 2,
+  "loop": 0
+ },
+ "stm9": {
+  "close": 2,
+  "sil": 2,
+  "loop": 0
+ },
+ "sks": {
+  "close": 2,
+  "sil": 0,
+  "loop": 0
+ },
+ "rsh": {
+  "close": 2,
+  "sil": 0,
+  "loop": 0
+ },
+ "rsass": {
+  "close": 2,
+  "sil": 2,
+  "loop": 0
+ },
+ "rhino": {
+  "close": 2,
+  "sil": 0,
+  "loop": 0
+ },
+ "rfb": {
+  "close": 2,
+  "sil": 2,
+  "loop": 0
+ },
+ "rem700": {
+  "close": 2,
+  "sil": 2,
+  "loop": 0
+ },
+ "pl": {
+  "close": 2,
+  "sil": 2,
+  "loop": 0
+ },
+ "mts255": {
+  "close": 2,
+  "sil": 0,
+  "loop": 0
+ },
+ "mr18": {
+  "close": 2,
+  "sil": 2,
+  "loop": 0
+ },
+ "moss500": {
+  "close": 2,
+  "sil": 0,
+  "loop": 0
+ },
+ "mosin": {
+  "close": 2,
+  "sil": 2,
+  "loop": 0
+ },
+ "m9a3": {
+  "close": 2,
+  "sil": 2,
+  "loop": 0
+ },
+ "m3": {
+  "close": 2,
+  "sil": 0,
+  "loop": 0
+ },
+ "m1a": {
+  "close": 2,
+  "sil": 2,
+  "loop": 0
+ },
+ "ks23": {
+  "close": 2,
+  "sil": 0,
+  "loop": 0
+ },
+ "fn40gl": {
+  "close": 2,
+  "sil": 0,
+  "loop": 0
+ },
+ "fiveseven": {
+  "close": 2,
+  "sil": 2,
+  "loop": 0
+ },
+ "deagle": {
+  "close": 2,
+  "sil": 0,
+  "loop": 0
+ },
+ "adar": {
+  "close": 2,
+  "sil": 2,
+  "loop": 0
+ },
+ "1911": {
+  "close": 2,
+  "sil": 3,
+  "loop": 0
+ },
+ "explosion": {
+  "close": 1,
+  "sil": 0,
+  "loop": 0
+ },
+ "water": {
+  "close": 0,
+  "sil": 0,
+  "loop": 8
+ },
+ "vpo101": {
+  "close": 0,
+  "sil": 2,
+  "loop": 0
+ },
+ "vent": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "train": {
+  "close": 0,
+  "sil": 0,
+  "loop": 3
+ },
+ "test": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "sv98": {
+  "close": 0,
+  "sil": 2,
+  "loop": 0
+ },
+ "sr3m": {
+  "close": 0,
+  "sil": 0,
+  "loop": 5
+ },
+ "sparks": {
+  "close": 0,
+  "sil": 0,
+  "loop": 2
+ },
+ "shoreline": {
+  "close": 0,
+  "sil": 0,
+  "loop": 4
+ },
+ "shooting": {
+  "close": 0,
+  "sil": 0,
+  "loop": 2
+ },
+ "season": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "seagulls": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "rpd": {
+  "close": 0,
+  "sil": 16,
+  "loop": 4
+ },
+ "rooftop": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "prapor": {
+  "close": 0,
+  "sil": 0,
+  "loop": 2
+ },
+ "powerplant": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "pkm": {
+  "close": 0,
+  "sil": 0,
+  "loop": 5
+ },
+ "page": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "mp5sd": {
+  "close": 0,
+  "sil": 8,
+  "loop": 0
+ },
+ "labyrinth": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "lab": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "kord": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "illumination": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "ib": {
+  "close": 0,
+  "sil": 0,
+  "loop": 2
+ },
+ "helicopter": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "grenade": {
+  "close": 0,
+  "sil": 0,
+  "loop": 3
+ },
+ "generator": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "gas": {
+  "close": 0,
+  "sil": 0,
+  "loop": 2
+ },
+ "flare": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "entity": {
+  "close": 0,
+  "sil": 0,
+  "loop": 2
+ },
+ "electricity": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "electric": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "eger": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "duck": {
+  "close": 0,
+  "sil": 0,
+  "loop": 2
+ },
+ "coal": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "clocks": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "circle": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "chain": {
+  "close": 0,
+  "sil": 0,
+  "loop": 2
+ },
+ "buy": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "bunker": {
+  "close": 0,
+  "sil": 0,
+  "loop": 1
+ },
+ "btr": {
+  "close": 0,
+  "sil": 0,
+  "loop": 10
+ },
+ "broken": {
+  "close": 0,
+  "sil": 0,
+  "loop": 2
+ },
+ "blow": {
+  "close": 0,
+  "sil": 0,
+  "loop": 2
+ },
+ "beach": {
+  "close": 0,
+  "sil": 0,
+  "loop": 3
+ },
+ "amb": {
+  "close": 0,
+  "sil": 0,
+  "loop": 58
+ },
+ "alarm": {
+  "close": 0,
+  "sil": 0,
+  "loop": 2
+ },
+ "ak12": {
+  "close": 0,
+  "sil": 0,
+  "loop": 10
+ }
+}

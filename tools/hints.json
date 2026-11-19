@@ -1,0 +1,401 @@
+{
+ "rpk16": {
+  "hint": "偏亮 · 尾音短 · 低频适中",
+  "centroid": 5326,
+  "tail": 0.003,
+  "low": 0.59,
+  "name": "RPK-16"
+ },
+ "aps": {
+  "hint": "偏亮 · 尾音短 · 低频薄",
+  "centroid": 8294,
+  "tail": 0.0,
+  "low": 0.39,
+  "name": "APS"
+ },
+ "rhino": {
+  "hint": "偏闷 · 尾音中等 · 低频适中",
+  "centroid": 4384,
+  "tail": 0.021,
+  "low": 0.54,
+  "name": "Chiappa Rhino"
+ },
+ "deagle": {
+  "hint": "偏闷 · 尾音长 · 低频厚",
+  "centroid": 3438,
+  "tail": 0.19,
+  "low": 0.64,
+  "name": "Desert Eagle"
+ },
+ "fiveseven": {
+  "hint": "中频 · 尾音中等 · 低频薄",
+  "centroid": 4941,
+  "tail": 0.016,
+  "low": 0.39,
+  "name": "Five-seveN"
+ },
+ "glock18": {
+  "hint": "中频 · 尾音长 · 低频厚",
+  "centroid": 5154,
+  "tail": 0.078,
+  "low": 0.7,
+  "name": "Glock 18"
+ },
+ "1911": {
+  "hint": "偏亮 · 尾音短 · 低频适中",
+  "centroid": 5456,
+  "tail": 0.008,
+  "low": 0.5,
+  "name": "M1911A1"
+ },
+ "m9a3": {
+  "hint": "偏亮 · 尾音短 · 低频薄",
+  "centroid": 6092,
+  "tail": 0.011,
+  "low": 0.38,
+  "name": "M9A3"
+ },
+ "pl": {
+  "hint": "偏亮 · 尾音短 · 低频薄",
+  "centroid": 7415,
+  "tail": 0.007,
+  "low": 0.4,
+  "name": "PL-15"
+ },
+ "rsh": {
+  "hint": "偏闷 · 尾音长 · 低频薄",
+  "centroid": 3761,
+  "tail": 0.15,
+  "low": 0.31,
+  "name": "RSh-12"
+ },
+ "adar": {
+  "hint": "偏闷 · 尾音中等 · 低频薄",
+  "centroid": 4308,
+  "tail": 0.033,
+  "low": 0.3,
+  "name": "ADAR 2-15"
+ },
+ "ak101": {
+  "hint": "中频 · 尾音长 · 低频厚",
+  "centroid": 4820,
+  "tail": 0.106,
+  "low": 0.76,
+  "name": "AK-101"
+ },
+ "ak102": {
+  "hint": "中频 · 尾音长 · 低频厚",
+  "centroid": 4976,
+  "tail": 0.172,
+  "low": 0.8,
+  "name": "AK-102"
+ },
+ "ak74": {
+  "hint": "中频 · 尾音长 · 低频厚",
+  "centroid": 5132,
+  "tail": 0.071,
+  "low": 0.7,
+  "name": "AK-74"
+ },
+ "ak74m": {
+  "hint": "偏亮 · 尾音长 · 低频厚",
+  "centroid": 5478,
+  "tail": 0.055,
+  "low": 0.7,
+  "name": "AK-74M"
+ },
+ "akm": {
+  "hint": "偏亮 · 尾音短 · 低频适中",
+  "centroid": 5509,
+  "tail": 0.003,
+  "low": 0.55,
+  "name": "AKM"
+ },
+ "aksu": {
+  "hint": "偏亮 · 尾音短 · 低频适中",
+  "centroid": 5622,
+  "tail": 0.004,
+  "low": 0.59,
+  "name": "AKS-74U"
+ },
+ "ash12": {
+  "hint": "偏闷 · 尾音中等 · 低频厚",
+  "centroid": 3651,
+  "tail": 0.041,
+  "low": 0.74,
+  "name": "ASh-12"
+ },
+ "aug": {
+  "hint": "偏亮 · 尾音短 · 低频适中",
+  "centroid": 5488,
+  "tail": 0.01,
+  "low": 0.53,
+  "name": "AUG A3"
+ },
+ "avt": {
+  "hint": "中频 · 尾音短 · 低频厚",
+  "centroid": 4399,
+  "tail": 0.007,
+  "low": 0.76,
+  "name": "AVT-40"
+ },
+ "hk416": {
+  "hint": "偏亮 · 尾音短 · 低频厚",
+  "centroid": 5553,
+  "tail": 0.001,
+  "low": 0.7,
+  "name": "HK 416A5"
+ },
+ "m1a": {
+  "hint": "中频 · 尾音中等 · 低频适中",
+  "centroid": 5149,
+  "tail": 0.016,
+  "low": 0.49,
+  "name": "M1A"
+ },
+ "m4a1": {
+  "hint": "中频 · 尾音长 · 低频薄",
+  "centroid": 5080,
+  "tail": 0.06,
+  "low": 0.33,
+  "name": "M4A1"
+ },
+ "mcx": {
+  "hint": "中频 · 尾音长 · 低频适中",
+  "centroid": 5156,
+  "tail": 0.223,
+  "low": 0.54,
+  "name": "MCX .300"
+ },
+ "mdr": {
+  "hint": "偏亮 · 尾音短 · 低频厚",
+  "centroid": 5216,
+  "tail": 0.001,
+  "low": 0.87,
+  "name": "MDR 5.56"
+ },
+ "mdr308": {
+  "hint": "偏闷 · 尾音中等 · 低频厚",
+  "centroid": 4399,
+  "tail": 0.017,
+  "low": 0.73,
+  "name": "MDR 7.62"
+ },
+ "mutant": {
+  "hint": "偏闷 · 尾音中等 · 低频厚",
+  "centroid": 3700,
+  "tail": 0.021,
+  "low": 0.72,
+  "name": "Mk47 Mutant"
+ },
+ "rfb": {
+  "hint": "偏亮 · 尾音中等 · 低频适中",
+  "centroid": 5668,
+  "tail": 0.029,
+  "low": 0.52,
+  "name": "RFB"
+ },
+ "rsass": {
+  "hint": "偏闷 · 尾音中等 · 低频薄",
+  "centroid": 4320,
+  "tail": 0.016,
+  "low": 0.41,
+  "name": "RSASS"
+ },
+ "fal": {
+  "hint": "偏闷 · 尾音长 · 低频厚",
+  "centroid": 3511,
+  "tail": 0.062,
+  "low": 0.73,
+  "name": "SA-58"
+ },
+ "scar": {
+  "hint": "中频 · 尾音短 · 低频厚",
+  "centroid": 4566,
+  "tail": 0.007,
+  "low": 0.79,
+  "name": "SCAR-H"
+ },
+ "sks": {
+  "hint": "中频 · 尾音中等 · 低频适中",
+  "centroid": 4553,
+  "tail": 0.031,
+  "low": 0.56,
+  "name": "SKS"
+ },
+ "tx15": {
+  "hint": "偏亮 · 尾音短 · 低频薄",
+  "centroid": 5249,
+  "tail": 0.014,
+  "low": 0.4,
+  "name": "TX-15 DML"
+ },
+ "m3": {
+  "hint": "中频 · 尾音中等 · 低频薄",
+  "centroid": 4954,
+  "tail": 0.032,
+  "low": 0.41,
+  "name": "Benelli M3"
+ },
+ "ks23": {
+  "hint": "偏闷 · 尾音长 · 低频薄",
+  "centroid": 3838,
+  "tail": 0.055,
+  "low": 0.45,
+  "name": "KS-23"
+ },
+ "rem870": {
+  "hint": "偏闷 · 尾音中等 · 低频适中",
+  "centroid": 4157,
+  "tail": 0.037,
+  "low": 0.51,
+  "name": "M870"
+ },
+ "mts255": {
+  "hint": "偏闷 · 尾音长 · 低频适中",
+  "centroid": 3857,
+  "tail": 0.056,
+  "low": 0.51,
+  "name": "MTs-255"
+ },
+ "moss500": {
+  "hint": "偏闷 · 尾音长 · 低频适中",
+  "centroid": 3823,
+  "tail": 0.068,
+  "low": 0.51,
+  "name": "Mossberg 500"
+ },
+ "toz": {
+  "hint": "偏闷 · 尾音中等 · 低频薄",
+  "centroid": 4258,
+  "tail": 0.038,
+  "low": 0.38,
+  "name": "TOZ-106"
+ },
+ "utes": {
+  "hint": "中频 · 尾音长 · 低频厚",
+  "centroid": 4543,
+  "tail": 0.059,
+  "low": 0.65,
+  "name": "UTS-15"
+ },
+ "mp5": {
+  "hint": "偏亮 · 尾音短 · 低频薄",
+  "centroid": 5815,
+  "tail": 0.0,
+  "low": 0.42,
+  "name": "MP5"
+ },
+ "mp7": {
+  "hint": "偏亮 · 尾音短 · 低频适中",
+  "centroid": 5873,
+  "tail": 0.003,
+  "low": 0.56,
+  "name": "MP7"
+ },
+ "mp9": {
+  "hint": "中频 · 尾音中等 · 低频厚",
+  "centroid": 5031,
+  "tail": 0.016,
+  "low": 0.68,
+  "name": "MP9"
+ },
+ "mpx": {
+  "hint": "偏亮 · 尾音短 · 低频薄",
+  "centroid": 5764,
+  "tail": 0.006,
+  "low": 0.42,
+  "name": "MPX"
+ },
+ "p90": {
+  "hint": "偏亮 · 尾音短 · 低频厚",
+  "centroid": 6506,
+  "tail": 0.003,
+  "low": 0.66,
+  "name": "P90"
+ },
+ "vityaz": {
+  "hint": "偏闷 · 尾音中等 · 低频薄",
+  "centroid": 4285,
+  "tail": 0.02,
+  "low": 0.42,
+  "name": "PP-19-01"
+ },
+ "kedr": {
+  "hint": "中频 · 尾音短 · 低频厚",
+  "centroid": 4817,
+  "tail": 0.004,
+  "low": 0.67,
+  "name": "PP-91 Kedr"
+ },
+ "ppsh": {
+  "hint": "偏闷 · 尾音长 · 低频厚",
+  "centroid": 3647,
+  "tail": 0.095,
+  "low": 0.63,
+  "name": "PPSh-41"
+ },
+ "stm9": {
+  "hint": "偏亮 · 尾音中等 · 低频适中",
+  "centroid": 7448,
+  "tail": 0.026,
+  "low": 0.49,
+  "name": "STM-9"
+ },
+ "ump": {
+  "hint": "中频 · 尾音中等 · 低频适中",
+  "centroid": 4833,
+  "tail": 0.017,
+  "low": 0.58,
+  "name": "UMP .45"
+ },
+ "vector": {
+  "hint": "偏闷 · 尾音长 · 低频适中",
+  "centroid": 3853,
+  "tail": 0.046,
+  "low": 0.53,
+  "name": "Vector .45"
+ },
+ "rem700": {
+  "hint": "偏闷 · 尾音长 · 低频薄",
+  "centroid": 3697,
+  "tail": 0.053,
+  "low": 0.44,
+  "name": "M700"
+ },
+ "mosin": {
+  "hint": "偏闷 · 尾音中等 · 低频薄",
+  "centroid": 4150,
+  "tail": 0.039,
+  "low": 0.36,
+  "name": "Mosin"
+ },
+ "svd": {
+  "hint": "中频 · 尾音中等 · 低频薄",
+  "centroid": 4598,
+  "tail": 0.044,
+  "low": 0.37,
+  "name": "SVD-S"
+ },
+ "t5000": {
+  "hint": "中频 · 尾音长 · 低频适中",
+  "centroid": 4509,
+  "tail": 0.049,
+  "low": 0.56,
+  "name": "T-5000M"
+ },
+ "vpo215": {
+  "hint": "中频 · 尾音长 · 低频适中",
+  "centroid": 4561,
+  "tail": 0.051,
+  "low": 0.53,
+  "name": "VPO-215"
+ },
+ "vss": {
+  "hint": "偏亮 · 尾音短 · 低频薄",
+  "centroid": 7165,
+  "tail": 0.009,
+  "low": 0.47,
+  "name": "VSS Vintorez"
+ }
+}

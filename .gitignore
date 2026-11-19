@@ -1,0 +1,16 @@
+# 本地虚拟环境（UnityPy / soundfile / ffmpeg）
+.venv/
+__pycache__/
+*.pyc
+
+# 游戏原声：版权归 Battlestate Games，不随仓库分发
+# 只保留 manifest.json（元数据），重新生成方式见 README
+sounds/**/*.ogg
+
+# 11MB 的思源宋体源文件，构建时会从 Google Fonts 重新下载并子集化
+fonts/NotoSerifSC-SemiBold.otf
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,3422 @@
+[
+  {
+    "id": "rpk16",
+    "name": "RPK-16",
+    "caliber": "5.45x39",
+    "type": "轻机枪",
+    "category": "mg",
+    "rpm": 650,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/rpk16/standard/rpk16_outdoor_close_01.ogg",
+            "clip": "rpk16_outdoor_close_01",
+            "duration": 2.383
+          },
+          {
+            "file": "sounds/rpk16/standard/rpk16_outdoor_close_02.ogg",
+            "clip": "rpk16_outdoor_close_02",
+            "duration": 2.378
+          },
+          {
+            "file": "sounds/rpk16/standard/rpk16_outdoor_close_03.ogg",
+            "clip": "rpk16_outdoor_close_03",
+            "duration": 2.368
+          },
+          {
+            "file": "sounds/rpk16/standard/rpk16_outdoor_close_04.ogg",
+            "clip": "rpk16_outdoor_close_04",
+            "duration": 2.341
+          },
+          {
+            "file": "sounds/rpk16/standard/rpk16_outdoor_close_05.ogg",
+            "clip": "rpk16_outdoor_close_05",
+            "duration": 2.318
+          },
+          {
+            "file": "sounds/rpk16/standard/rpk16_outdoor_close_06.ogg",
+            "clip": "rpk16_outdoor_close_06",
+            "duration": 2.297
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/rpk16/suppressed/rpk16_outdoor_silenced_close_01.ogg",
+            "clip": "rpk16_outdoor_silenced_close_01",
+            "duration": 1.661
+          },
+          {
+            "file": "sounds/rpk16/suppressed/rpk16_outdoor_silenced_close_02.ogg",
+            "clip": "rpk16_outdoor_silenced_close_02",
+            "duration": 1.642
+          },
+          {
+            "file": "sounds/rpk16/suppressed/rpk16_outdoor_silenced_close_03.ogg",
+            "clip": "rpk16_outdoor_silenced_close_03",
+            "duration": 1.625
+          },
+          {
+            "file": "sounds/rpk16/suppressed/rpk16_outdoor_silenced_close_04.ogg",
+            "clip": "rpk16_outdoor_silenced_close_04",
+            "duration": 1.594
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（650 RPM）",
+        "clips": [
+          {
+            "file": "sounds/rpk16/auto/rpk16_auto_burst.ogg",
+            "clip": "rpk16_auto_burst",
+            "duration": 3.845
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aps",
+    "name": "APS",
+    "caliber": "9x18",
+    "type": "机关手枪",
+    "category": "pistol",
+    "rpm": 900,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/aps/standard/aps_outdoor_close_01.ogg",
+            "clip": "aps_outdoor_close_01",
+            "duration": 1.564
+          },
+          {
+            "file": "sounds/aps/standard/aps_outdoor_close_02.ogg",
+            "clip": "aps_outdoor_close_02",
+            "duration": 1.606
+          },
+          {
+            "file": "sounds/aps/standard/aps_outdoor_close_03.ogg",
+            "clip": "aps_outdoor_close_03",
+            "duration": 1.565
+          },
+          {
+            "file": "sounds/aps/standard/aps_outdoor_close_04.ogg",
+            "clip": "aps_outdoor_close_04",
+            "duration": 1.74
+          },
+          {
+            "file": "sounds/aps/standard/aps_outdoor_close_05.ogg",
+            "clip": "aps_outdoor_close_05",
+            "duration": 1.654
+          },
+          {
+            "file": "sounds/aps/standard/aps_outdoor_close_06.ogg",
+            "clip": "aps_outdoor_close_06",
+            "duration": 1.606
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/aps/suppressed/aps_outdoor_close_silenced_01.ogg",
+            "clip": "aps_outdoor_close_silenced_01",
+            "duration": 0.881
+          },
+          {
+            "file": "sounds/aps/suppressed/aps_outdoor_close_silenced_02.ogg",
+            "clip": "aps_outdoor_close_silenced_02",
+            "duration": 1.099
+          },
+          {
+            "file": "sounds/aps/suppressed/aps_outdoor_close_silenced_03.ogg",
+            "clip": "aps_outdoor_close_silenced_03",
+            "duration": 0.916
+          },
+          {
+            "file": "sounds/aps/suppressed/aps_outdoor_close_silenced_04.ogg",
+            "clip": "aps_outdoor_close_silenced_04",
+            "duration": 1.09
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（900 RPM）",
+        "clips": [
+          {
+            "file": "sounds/aps/auto/aps_auto_burst.ogg",
+            "clip": "aps_auto_burst",
+            "duration": 2.073
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rhino",
+    "name": "Chiappa Rhino",
+    "caliber": ".357",
+    "type": "左轮手枪",
+    "category": "pistol",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/rhino/standard/rhino_fire_close.ogg",
+            "clip": "rhino_fire_close",
+            "duration": 2.795
+          },
+          {
+            "file": "sounds/rhino/standard/rhino_fire_indoor_close.ogg",
+            "clip": "rhino_fire_indoor_close",
+            "duration": 1.829
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deagle",
+    "name": "Desert Eagle",
+    "caliber": ".50 AE",
+    "type": "手枪",
+    "category": "pistol",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/deagle/standard/deagle_outdoor_close.ogg",
+            "clip": "deagle_outdoor_close",
+            "duration": 4.11
+          },
+          {
+            "file": "sounds/deagle/standard/deagle_indoor_close.ogg",
+            "clip": "deagle_indoor_close",
+            "duration": 2.103
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fiveseven",
+    "name": "Five-seveN",
+    "caliber": "5.7x28",
+    "type": "手枪",
+    "category": "pistol",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/fiveseven/standard/fiveseven_fire_close.ogg",
+            "clip": "fiveseven_fire_close",
+            "duration": 2.631
+          },
+          {
+            "file": "sounds/fiveseven/standard/fiveseven_fire_indoor_close.ogg",
+            "clip": "fiveseven_fire_indoor_close",
+            "duration": 1.414
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/fiveseven/suppressed/fiveseven_fire_silenced_close.ogg",
+            "clip": "fiveseven_fire_silenced_close",
+            "duration": 1.165
+          },
+          {
+            "file": "sounds/fiveseven/suppressed/fiveseven_fire_silenced_indoor_close.ogg",
+            "clip": "fiveseven_fire_silenced_indoor_close",
+            "duration": 1.253
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "glock18",
+    "name": "Glock 18",
+    "caliber": "9x19",
+    "type": "手枪",
+    "category": "pistol",
+    "rpm": 1100,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/glock18/standard/glock18_outdoor_close_01.ogg",
+            "clip": "glock18_outdoor_close_01",
+            "duration": 1.975
+          },
+          {
+            "file": "sounds/glock18/standard/glock18_outdoor_close_02.ogg",
+            "clip": "glock18_outdoor_close_02",
+            "duration": 1.916
+          },
+          {
+            "file": "sounds/glock18/standard/glock18_outdoor_close_03.ogg",
+            "clip": "glock18_outdoor_close_03",
+            "duration": 1.858
+          },
+          {
+            "file": "sounds/glock18/standard/glock18_outdoor_close_04.ogg",
+            "clip": "glock18_outdoor_close_04",
+            "duration": 1.809
+          },
+          {
+            "file": "sounds/glock18/standard/glock18_outdoor_close_05.ogg",
+            "clip": "glock18_outdoor_close_05",
+            "duration": 1.753
+          },
+          {
+            "file": "sounds/glock18/standard/glock18_outdoor_close_06.ogg",
+            "clip": "glock18_outdoor_close_06",
+            "duration": 1.686
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（1100 RPM）",
+        "clips": [
+          {
+            "file": "sounds/glock18/auto/glock18_auto_burst.ogg",
+            "clip": "glock18_auto_burst",
+            "duration": 2.248
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1911",
+    "name": "M1911A1",
+    "caliber": ".45 ACP",
+    "type": "手枪",
+    "category": "pistol",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/1911/standard/1911_fire_close.ogg",
+            "clip": "1911_fire_close",
+            "duration": 1.675
+          },
+          {
+            "file": "sounds/1911/standard/1911_fire_indoor_close.ogg",
+            "clip": "1911_fire_indoor_close",
+            "duration": 1.556
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/1911/suppressed/1911_fire_silenced_close1.ogg",
+            "clip": "1911_fire_silenced_close1",
+            "duration": 1.127
+          },
+          {
+            "file": "sounds/1911/suppressed/1911_fire_silenced_close2.ogg",
+            "clip": "1911_fire_silenced_close2",
+            "duration": 0.975
+          },
+          {
+            "file": "sounds/1911/suppressed/1911_fire_silenced_indoor_close.ogg",
+            "clip": "1911_fire_silenced_indoor_close",
+            "duration": 1.127
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m9a3",
+    "name": "M9A3",
+    "caliber": "9x19",
+    "type": "手枪",
+    "category": "pistol",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/m9a3/standard/m9a3_fire_close.ogg",
+            "clip": "m9a3_fire_close",
+            "duration": 2.286
+          },
+          {
+            "file": "sounds/m9a3/standard/m9a3_fire_indoor_close.ogg",
+            "clip": "m9a3_fire_indoor_close",
+            "duration": 1.116
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/m9a3/suppressed/m9a3_fire_close_silenced.ogg",
+            "clip": "m9a3_fire_close_silenced",
+            "duration": 0.645
+          },
+          {
+            "file": "sounds/m9a3/suppressed/m9a3_fire_close_indoor_silenced.ogg",
+            "clip": "m9a3_fire_close_indoor_silenced",
+            "duration": 0.809
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pl",
+    "name": "PL-15",
+    "caliber": "9x19",
+    "type": "手枪",
+    "category": "pistol",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/pl/standard/pl_fire_close1.ogg",
+            "clip": "pl_fire_close1",
+            "duration": 1.793
+          },
+          {
+            "file": "sounds/pl/standard/pl_fire_indoor_close.ogg",
+            "clip": "pl_fire_indoor_close",
+            "duration": 1.32
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/pl/suppressed/pl_fire_silenced_close1.ogg",
+            "clip": "pl_fire_silenced_close1",
+            "duration": 1.184
+          },
+          {
+            "file": "sounds/pl/suppressed/pl_fire_silenced_indoor_close.ogg",
+            "clip": "pl_fire_silenced_indoor_close",
+            "duration": 0.784
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rsh",
+    "name": "RSh-12",
+    "caliber": "12.7x55",
+    "type": "左轮手枪",
+    "category": "pistol",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/rsh/standard/rsh_12_outdoor_close_oneshot.ogg",
+            "clip": "rsh_12_outdoor_close_oneshot",
+            "duration": 2.802
+          },
+          {
+            "file": "sounds/rsh/standard/rsh_12_indoor_close_oneshot.ogg",
+            "clip": "rsh_12_indoor_close_oneshot",
+            "duration": 1.749
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adar",
+    "name": "ADAR 2-15",
+    "caliber": "5.56x45",
+    "type": "突击步枪",
+    "category": "rifle",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/adar/standard/adar_fire_outdoor_close.ogg",
+            "clip": "adar_fire_outdoor_close",
+            "duration": 2.444
+          },
+          {
+            "file": "sounds/adar/standard/adar_fire_indoor_close.ogg",
+            "clip": "adar_fire_indoor_close",
+            "duration": 1.573
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/adar/suppressed/adar_fire_outdoor_silenced_close.ogg",
+            "clip": "adar_fire_outdoor_silenced_close",
+            "duration": 1.382
+          },
+          {
+            "file": "sounds/adar/suppressed/adar_fire_indoor_silenced_close.ogg",
+            "clip": "adar_fire_indoor_silenced_close",
+            "duration": 1.324
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ak101",
+    "name": "AK-101",
+    "caliber": "5.56x45",
+    "type": "突击步枪",
+    "category": "rifle",
+    "rpm": 650,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/ak101/standard/ak101_outdoor_close_01.ogg",
+            "clip": "ak101_outdoor_close_01",
+            "duration": 1.67
+          },
+          {
+            "file": "sounds/ak101/standard/ak101_outdoor_close_02.ogg",
+            "clip": "ak101_outdoor_close_02",
+            "duration": 1.694
+          },
+          {
+            "file": "sounds/ak101/standard/ak101_outdoor_close_03.ogg",
+            "clip": "ak101_outdoor_close_03",
+            "duration": 1.685
+          },
+          {
+            "file": "sounds/ak101/standard/ak101_outdoor_close_04.ogg",
+            "clip": "ak101_outdoor_close_04",
+            "duration": 1.733
+          },
+          {
+            "file": "sounds/ak101/standard/ak101_outdoor_close_05.ogg",
+            "clip": "ak101_outdoor_close_05",
+            "duration": 1.666
+          },
+          {
+            "file": "sounds/ak101/standard/ak101_outdoor_close_06.ogg",
+            "clip": "ak101_outdoor_close_06",
+            "duration": 1.746
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/ak101/suppressed/ak101_outdoor_silenced_close_1.ogg",
+            "clip": "ak101_outdoor_silenced_close_1",
+            "duration": 1.389
+          },
+          {
+            "file": "sounds/ak101/suppressed/ak101_outdoor_silenced_close_2.ogg",
+            "clip": "ak101_outdoor_silenced_close_2",
+            "duration": 1.362
+          },
+          {
+            "file": "sounds/ak101/suppressed/ak101_outdoor_silenced_close_3.ogg",
+            "clip": "ak101_outdoor_silenced_close_3",
+            "duration": 1.394
+          },
+          {
+            "file": "sounds/ak101/suppressed/ak101_outdoor_silenced_close_4.ogg",
+            "clip": "ak101_outdoor_silenced_close_4",
+            "duration": 1.352
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（650 RPM）",
+        "clips": [
+          {
+            "file": "sounds/ak101/auto/ak101_auto_burst.ogg",
+            "clip": "ak101_auto_burst",
+            "duration": 3.208
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ak102",
+    "name": "AK-102",
+    "caliber": "5.56x45",
+    "type": "突击步枪",
+    "category": "rifle",
+    "rpm": 600,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/ak102/standard/ak102_outdoor_close_01.ogg",
+            "clip": "ak102_outdoor_close_01",
+            "duration": 1.703
+          },
+          {
+            "file": "sounds/ak102/standard/ak102_outdoor_close_02.ogg",
+            "clip": "ak102_outdoor_close_02",
+            "duration": 1.674
+          },
+          {
+            "file": "sounds/ak102/standard/ak102_outdoor_close_03.ogg",
+            "clip": "ak102_outdoor_close_03",
+            "duration": 1.712
+          },
+          {
+            "file": "sounds/ak102/standard/ak102_outdoor_close_04.ogg",
+            "clip": "ak102_outdoor_close_04",
+            "duration": 1.661
+          },
+          {
+            "file": "sounds/ak102/standard/ak102_outdoor_close_05.ogg",
+            "clip": "ak102_outdoor_close_05",
+            "duration": 1.693
+          },
+          {
+            "file": "sounds/ak102/standard/ak102_outdoor_close_06.ogg",
+            "clip": "ak102_outdoor_close_06",
+            "duration": 1.67
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/ak102/suppressed/ak102_outdoor_silenced_close_01.ogg",
+            "clip": "ak102_outdoor_silenced_close_01",
+            "duration": 1.322
+          },
+          {
+            "file": "sounds/ak102/suppressed/ak102_outdoor_silenced_close_02.ogg",
+            "clip": "ak102_outdoor_silenced_close_02",
+            "duration": 1.417
+          },
+          {
+            "file": "sounds/ak102/suppressed/ak102_outdoor_silenced_close_03.ogg",
+            "clip": "ak102_outdoor_silenced_close_03",
+            "duration": 1.395
+          },
+          {
+            "file": "sounds/ak102/suppressed/ak102_outdoor_silenced_close_04.ogg",
+            "clip": "ak102_outdoor_silenced_close_04",
+            "duration": 1.349
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（600 RPM）",
+        "clips": [
+          {
+            "file": "sounds/ak102/auto/ak102_auto_burst.ogg",
+            "clip": "ak102_auto_burst",
+            "duration": 3.212
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ak74",
+    "name": "AK-74",
+    "caliber": "5.45x39",
+    "type": "突击步枪",
+    "category": "rifle",
+    "rpm": 650,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/ak74/standard/ak74_outdoor_close_01.ogg",
+            "clip": "ak74_outdoor_close_01",
+            "duration": 2.289
+          },
+          {
+            "file": "sounds/ak74/standard/ak74_outdoor_close_02.ogg",
+            "clip": "ak74_outdoor_close_02",
+            "duration": 2.492
+          },
+          {
+            "file": "sounds/ak74/standard/ak74_outdoor_close_03.ogg",
+            "clip": "ak74_outdoor_close_03",
+            "duration": 2.586
+          },
+          {
+            "file": "sounds/ak74/standard/ak74_outdoor_close_04.ogg",
+            "clip": "ak74_outdoor_close_04",
+            "duration": 2.253
+          },
+          {
+            "file": "sounds/ak74/standard/ak74_outdoor_close_05.ogg",
+            "clip": "ak74_outdoor_close_05",
+            "duration": 2.342
+          },
+          {
+            "file": "sounds/ak74/standard/ak74_outdoor_close_06.ogg",
+            "clip": "ak74_outdoor_close_06",
+            "duration": 2.112
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/ak74/suppressed/ak74_outdoor_close_silenced_01.ogg",
+            "clip": "ak74_outdoor_close_silenced_01",
+            "duration": 1.72
+          },
+          {
+            "file": "sounds/ak74/suppressed/ak74_outdoor_close_silenced_02.ogg",
+            "clip": "ak74_outdoor_close_silenced_02",
+            "duration": 1.68
+          },
+          {
+            "file": "sounds/ak74/suppressed/ak74_outdoor_close_silenced_03.ogg",
+            "clip": "ak74_outdoor_close_silenced_03",
+            "duration": 1.648
+          },
+          {
+            "file": "sounds/ak74/suppressed/ak74_outdoor_close_silenced_04.ogg",
+            "clip": "ak74_outdoor_close_silenced_04",
+            "duration": 1.597
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（650 RPM）",
+        "clips": [
+          {
+            "file": "sounds/ak74/auto/ak74_auto_burst.ogg",
+            "clip": "ak74_auto_burst",
+            "duration": 4.047
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ak74m",
+    "name": "AK-74M",
+    "caliber": "5.45x39",
+    "type": "突击步枪",
+    "category": "rifle",
+    "rpm": 650,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/ak74m/standard/ak74m_outdoor_close_oneshot_01.ogg",
+            "clip": "ak74m_outdoor_close_oneshot_01",
+            "duration": 1.94
+          },
+          {
+            "file": "sounds/ak74m/standard/ak74m_outdoor_close_oneshot_02.ogg",
+            "clip": "ak74m_outdoor_close_oneshot_02",
+            "duration": 1.94
+          },
+          {
+            "file": "sounds/ak74m/standard/ak74m_outdoor_close_oneshot_03.ogg",
+            "clip": "ak74m_outdoor_close_oneshot_03",
+            "duration": 1.94
+          },
+          {
+            "file": "sounds/ak74m/standard/ak74m_outdoor_close_oneshot_04.ogg",
+            "clip": "ak74m_outdoor_close_oneshot_04",
+            "duration": 1.94
+          },
+          {
+            "file": "sounds/ak74m/standard/ak74m_outdoor_close_oneshot_05.ogg",
+            "clip": "ak74m_outdoor_close_oneshot_05",
+            "duration": 1.94
+          },
+          {
+            "file": "sounds/ak74m/standard/ak74m_outdoor_close_oneshot_06.ogg",
+            "clip": "ak74m_outdoor_close_oneshot_06",
+            "duration": 1.94
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/ak74m/suppressed/ak74m_outdoor_silenced_close_oneshot_01.ogg",
+            "clip": "ak74m_outdoor_silenced_close_oneshot_01",
+            "duration": 1.497
+          },
+          {
+            "file": "sounds/ak74m/suppressed/ak74m_outdoor_silenced_close_oneshot_02.ogg",
+            "clip": "ak74m_outdoor_silenced_close_oneshot_02",
+            "duration": 1.497
+          },
+          {
+            "file": "sounds/ak74m/suppressed/ak74m_outdoor_silenced_close_oneshot_03.ogg",
+            "clip": "ak74m_outdoor_silenced_close_oneshot_03",
+            "duration": 1.497
+          },
+          {
+            "file": "sounds/ak74m/suppressed/ak74m_outdoor_silenced_close_oneshot_04.ogg",
+            "clip": "ak74m_outdoor_silenced_close_oneshot_04",
+            "duration": 1.497
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（650 RPM）",
+        "clips": [
+          {
+            "file": "sounds/ak74m/auto/ak74m_auto_burst.ogg",
+            "clip": "ak74m_auto_burst",
+            "duration": 3.402
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "akm",
+    "name": "AKM",
+    "caliber": "7.62x39",
+    "type": "突击步枪",
+    "category": "rifle",
+    "rpm": 600,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/akm/standard/akm_close_outdoor_01.ogg",
+            "clip": "akm_close_outdoor_01",
+            "duration": 2.95
+          },
+          {
+            "file": "sounds/akm/standard/akm_close_outdoor_02.ogg",
+            "clip": "akm_close_outdoor_02",
+            "duration": 2.911
+          },
+          {
+            "file": "sounds/akm/standard/akm_close_outdoor_03.ogg",
+            "clip": "akm_close_outdoor_03",
+            "duration": 2.946
+          },
+          {
+            "file": "sounds/akm/standard/akm_close_outdoor_04.ogg",
+            "clip": "akm_close_outdoor_04",
+            "duration": 2.9
+          },
+          {
+            "file": "sounds/akm/standard/akm_close_outdoor_05.ogg",
+            "clip": "akm_close_outdoor_05",
+            "duration": 2.963
+          },
+          {
+            "file": "sounds/akm/standard/akm_close_outdoor_06.ogg",
+            "clip": "akm_close_outdoor_06",
+            "duration": 2.914
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/akm/suppressed/akm_close_outdoor_silenced_01.ogg",
+            "clip": "akm_close_outdoor_silenced_01",
+            "duration": 1.105
+          },
+          {
+            "file": "sounds/akm/suppressed/akm_close_outdoor_silenced_02.ogg",
+            "clip": "akm_close_outdoor_silenced_02",
+            "duration": 1.071
+          },
+          {
+            "file": "sounds/akm/suppressed/akm_close_outdoor_silenced_03.ogg",
+            "clip": "akm_close_outdoor_silenced_03",
+            "duration": 1.101
+          },
+          {
+            "file": "sounds/akm/suppressed/akm_close_outdoor_silenced_04.ogg",
+            "clip": "akm_close_outdoor_silenced_04",
+            "duration": 1.078
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（600 RPM）",
+        "clips": [
+          {
+            "file": "sounds/akm/auto/akm_auto_burst.ogg",
+            "clip": "akm_auto_burst",
+            "duration": 3.463
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aksu",
+    "name": "AKS-74U",
+    "caliber": "5.45x39",
+    "type": "突击步枪",
+    "category": "rifle",
+    "rpm": 650,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/aksu/standard/aksu_outdoor_close_01.ogg",
+            "clip": "aksu_outdoor_close_01",
+            "duration": 2.184
+          },
+          {
+            "file": "sounds/aksu/standard/aksu_outdoor_close_02.ogg",
+            "clip": "aksu_outdoor_close_02",
+            "duration": 2.712
+          },
+          {
+            "file": "sounds/aksu/standard/aksu_outdoor_close_03.ogg",
+            "clip": "aksu_outdoor_close_03",
+            "duration": 2.045
+          },
+          {
+            "file": "sounds/aksu/standard/aksu_outdoor_close_04.ogg",
+            "clip": "aksu_outdoor_close_04",
+            "duration": 2.264
+          },
+          {
+            "file": "sounds/aksu/standard/aksu_outdoor_close_05.ogg",
+            "clip": "aksu_outdoor_close_05",
+            "duration": 2.698
+          },
+          {
+            "file": "sounds/aksu/standard/aksu_outdoor_close_06.ogg",
+            "clip": "aksu_outdoor_close_06",
+            "duration": 2.429
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/aksu/suppressed/aksu_outdoor_close_silenced_01.ogg",
+            "clip": "aksu_outdoor_close_silenced_01",
+            "duration": 2.165
+          },
+          {
+            "file": "sounds/aksu/suppressed/aksu_outdoor_close_silenced_02.ogg",
+            "clip": "aksu_outdoor_close_silenced_02",
+            "duration": 2.195
+          },
+          {
+            "file": "sounds/aksu/suppressed/aksu_outdoor_close_silenced_03.ogg",
+            "clip": "aksu_outdoor_close_silenced_03",
+            "duration": 2.487
+          },
+          {
+            "file": "sounds/aksu/suppressed/aksu_outdoor_close_silenced_04.ogg",
+            "clip": "aksu_outdoor_close_silenced_04",
+            "duration": 2.466
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（650 RPM）",
+        "clips": [
+          {
+            "file": "sounds/aksu/auto/aksu_auto_burst.ogg",
+            "clip": "aksu_auto_burst",
+            "duration": 3.173
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ash12",
+    "name": "ASh-12",
+    "caliber": "12.7x55",
+    "type": "突击步枪",
+    "category": "rifle",
+    "rpm": 650,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/ash12/standard/ash12_outdoor_close_01.ogg",
+            "clip": "ash12_outdoor_close_01",
+            "duration": 2.687
+          },
+          {
+            "file": "sounds/ash12/standard/ash12_outdoor_close_02.ogg",
+            "clip": "ash12_outdoor_close_02",
+            "duration": 2.687
+          },
+          {
+            "file": "sounds/ash12/standard/ash12_outdoor_close_03.ogg",
+            "clip": "ash12_outdoor_close_03",
+            "duration": 2.687
+          },
+          {
+            "file": "sounds/ash12/standard/ash12_outdoor_close_04.ogg",
+            "clip": "ash12_outdoor_close_04",
+            "duration": 2.687
+          },
+          {
+            "file": "sounds/ash12/standard/ash12_outdoor_close_05.ogg",
+            "clip": "ash12_outdoor_close_05",
+            "duration": 2.687
+          },
+          {
+            "file": "sounds/ash12/standard/ash12_outdoor_close_06.ogg",
+            "clip": "ash12_outdoor_close_06",
+            "duration": 2.687
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/ash12/suppressed/ash12_outdoor_close_silenced_01.ogg",
+            "clip": "ash12_outdoor_close_silenced_01",
+            "duration": 1.817
+          },
+          {
+            "file": "sounds/ash12/suppressed/ash12_outdoor_close_silenced_02.ogg",
+            "clip": "ash12_outdoor_close_silenced_02",
+            "duration": 1.817
+          },
+          {
+            "file": "sounds/ash12/suppressed/ash12_outdoor_close_silenced_03.ogg",
+            "clip": "ash12_outdoor_close_silenced_03",
+            "duration": 1.817
+          },
+          {
+            "file": "sounds/ash12/suppressed/ash12_outdoor_close_silenced_04.ogg",
+            "clip": "ash12_outdoor_close_silenced_04",
+            "duration": 1.817
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（650 RPM）",
+        "clips": [
+          {
+            "file": "sounds/ash12/auto/ash12_auto_burst.ogg",
+            "clip": "ash12_auto_burst",
+            "duration": 4.149
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aug",
+    "name": "AUG A3",
+    "caliber": "5.56x45",
+    "type": "突击步枪",
+    "category": "rifle",
+    "rpm": 680,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/aug/standard/aug_outdoor_close_01.ogg",
+            "clip": "aug_outdoor_close_01",
+            "duration": 1.998
+          },
+          {
+            "file": "sounds/aug/standard/aug_outdoor_close_02.ogg",
+            "clip": "aug_outdoor_close_02",
+            "duration": 1.82
+          },
+          {
+            "file": "sounds/aug/standard/aug_outdoor_close_03.ogg",
+            "clip": "aug_outdoor_close_03",
+            "duration": 2.157
+          },
+          {
+            "file": "sounds/aug/standard/aug_outdoor_close_04.ogg",
+            "clip": "aug_outdoor_close_04",
+            "duration": 1.647
+          },
+          {
+            "file": "sounds/aug/standard/aug_outdoor_close_05.ogg",
+            "clip": "aug_outdoor_close_05",
+            "duration": 2.176
+          },
+          {
+            "file": "sounds/aug/standard/aug_outdoor_close_06.ogg",
+            "clip": "aug_outdoor_close_06",
+            "duration": 2.227
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/aug/suppressed/aug_outdoor_close_silenced_01.ogg",
+            "clip": "aug_outdoor_close_silenced_01",
+            "duration": 1.638
+          },
+          {
+            "file": "sounds/aug/suppressed/aug_outdoor_close_silenced_02.ogg",
+            "clip": "aug_outdoor_close_silenced_02",
+            "duration": 1.614
+          },
+          {
+            "file": "sounds/aug/suppressed/aug_outdoor_close_silenced_03.ogg",
+            "clip": "aug_outdoor_close_silenced_03",
+            "duration": 1.635
+          },
+          {
+            "file": "sounds/aug/suppressed/aug_outdoor_close_silenced_04.ogg",
+            "clip": "aug_outdoor_close_silenced_04",
+            "duration": 1.643
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（680 RPM）",
+        "clips": [
+          {
+            "file": "sounds/aug/auto/aug_auto_burst.ogg",
+            "clip": "aug_auto_burst",
+            "duration": 3.668
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "avt",
+    "name": "AVT-40",
+    "caliber": "7.62x54R",
+    "type": "半自动步枪",
+    "category": "rifle",
+    "rpm": 750,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/avt/standard/avt_outdoor_close_01.ogg",
+            "clip": "avt_outdoor_close_01",
+            "duration": 2.324
+          },
+          {
+            "file": "sounds/avt/standard/avt_outdoor_close_02.ogg",
+            "clip": "avt_outdoor_close_02",
+            "duration": 2.218
+          },
+          {
+            "file": "sounds/avt/standard/avt_outdoor_close_03.ogg",
+            "clip": "avt_outdoor_close_03",
+            "duration": 2.302
+          },
+          {
+            "file": "sounds/avt/standard/avt_outdoor_close_04.ogg",
+            "clip": "avt_outdoor_close_04",
+            "duration": 2.244
+          },
+          {
+            "file": "sounds/avt/standard/avt_outdoor_close_05.ogg",
+            "clip": "avt_outdoor_close_05",
+            "duration": 2.302
+          },
+          {
+            "file": "sounds/avt/standard/avt_outdoor_close_06.ogg",
+            "clip": "avt_outdoor_close_06",
+            "duration": 2.248
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（750 RPM）",
+        "clips": [
+          {
+            "file": "sounds/avt/auto/avt_auto_burst.ogg",
+            "clip": "avt_auto_burst",
+            "duration": 2.724
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hk416",
+    "name": "HK 416A5",
+    "caliber": "5.56x45",
+    "type": "突击步枪",
+    "category": "rifle",
+    "rpm": 850,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/hk416/standard/hk416_outdoor_close_01.ogg",
+            "clip": "hk416_outdoor_close_01",
+            "duration": 2.324
+          },
+          {
+            "file": "sounds/hk416/standard/hk416_outdoor_close_02.ogg",
+            "clip": "hk416_outdoor_close_02",
+            "duration": 2.594
+          },
+          {
+            "file": "sounds/hk416/standard/hk416_outdoor_close_03.ogg",
+            "clip": "hk416_outdoor_close_03",
+            "duration": 2.251
+          },
+          {
+            "file": "sounds/hk416/standard/hk416_outdoor_close_04.ogg",
+            "clip": "hk416_outdoor_close_04",
+            "duration": 2.729
+          },
+          {
+            "file": "sounds/hk416/standard/hk416_outdoor_close_05.ogg",
+            "clip": "hk416_outdoor_close_05",
+            "duration": 2.634
+          },
+          {
+            "file": "sounds/hk416/standard/hk416_outdoor_close_06.ogg",
+            "clip": "hk416_outdoor_close_06",
+            "duration": 2.49
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/hk416/suppressed/hk416_outdoor_close_silenced_01.ogg",
+            "clip": "hk416_outdoor_close_silenced_01",
+            "duration": 1.442
+          },
+          {
+            "file": "sounds/hk416/suppressed/hk416_outdoor_close_silenced_02.ogg",
+            "clip": "hk416_outdoor_close_silenced_02",
+            "duration": 1.626
+          },
+          {
+            "file": "sounds/hk416/suppressed/hk416_outdoor_close_silenced_03.ogg",
+            "clip": "hk416_outdoor_close_silenced_03",
+            "duration": 1.564
+          },
+          {
+            "file": "sounds/hk416/suppressed/hk416_outdoor_close_silenced_04.ogg",
+            "clip": "hk416_outdoor_close_silenced_04",
+            "duration": 1.545
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（850 RPM）",
+        "clips": [
+          {
+            "file": "sounds/hk416/auto/hk416_auto_burst.ogg",
+            "clip": "hk416_auto_burst",
+            "duration": 4.081
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m1a",
+    "name": "M1A",
+    "caliber": "7.62x51",
+    "type": "精确射手步枪",
+    "category": "rifle",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/m1a/standard/m1a_fire_close1.ogg",
+            "clip": "m1a_fire_close1",
+            "duration": 1.946
+          },
+          {
+            "file": "sounds/m1a/standard/m1a_fire_indoor_close.ogg",
+            "clip": "m1a_fire_indoor_close",
+            "duration": 1.448
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/m1a/suppressed/m1a_fire_silenced_close1.ogg",
+            "clip": "m1a_fire_silenced_close1",
+            "duration": 1.249
+          },
+          {
+            "file": "sounds/m1a/suppressed/m1a_fire_silenced_indoor_close1.ogg",
+            "clip": "m1a_fire_silenced_indoor_close1",
+            "duration": 1.135
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m4a1",
+    "name": "M4A1",
+    "caliber": "5.56x45",
+    "type": "突击步枪",
+    "category": "rifle",
+    "rpm": 800,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/m4a1/standard/m4a1_outdoor_close_onseshot_01.ogg",
+            "clip": "m4a1_outdoor_close_onseshot_01",
+            "duration": 1.972
+          },
+          {
+            "file": "sounds/m4a1/standard/m4a1_outdoor_close_onseshot_02.ogg",
+            "clip": "m4a1_outdoor_close_onseshot_02",
+            "duration": 1.972
+          },
+          {
+            "file": "sounds/m4a1/standard/m4a1_outdoor_close_onseshot_03.ogg",
+            "clip": "m4a1_outdoor_close_onseshot_03",
+            "duration": 1.972
+          },
+          {
+            "file": "sounds/m4a1/standard/m4a1_outdoor_close_onseshot_04.ogg",
+            "clip": "m4a1_outdoor_close_onseshot_04",
+            "duration": 1.972
+          },
+          {
+            "file": "sounds/m4a1/standard/m4a1_outdoor_close_onseshot_05.ogg",
+            "clip": "m4a1_outdoor_close_onseshot_05",
+            "duration": 1.972
+          },
+          {
+            "file": "sounds/m4a1/standard/m4a1_outdoor_close_onseshot_06.ogg",
+            "clip": "m4a1_outdoor_close_onseshot_06",
+            "duration": 1.972
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/m4a1/suppressed/m4a1_outdoor_silenced_close_onseshot_01.ogg",
+            "clip": "m4a1_outdoor_silenced_close_onseshot_01",
+            "duration": 1.255
+          },
+          {
+            "file": "sounds/m4a1/suppressed/m4a1_outdoor_silenced_close_onseshot_02.ogg",
+            "clip": "m4a1_outdoor_silenced_close_onseshot_02",
+            "duration": 1.255
+          },
+          {
+            "file": "sounds/m4a1/suppressed/m4a1_outdoor_silenced_close_onseshot_03.ogg",
+            "clip": "m4a1_outdoor_silenced_close_onseshot_03",
+            "duration": 1.255
+          },
+          {
+            "file": "sounds/m4a1/suppressed/m4a1_outdoor_silenced_close_onseshot_04.ogg",
+            "clip": "m4a1_outdoor_silenced_close_onseshot_04",
+            "duration": 1.255
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（800 RPM）",
+        "clips": [
+          {
+            "file": "sounds/m4a1/auto/m4a1_auto_burst.ogg",
+            "clip": "m4a1_auto_burst",
+            "duration": 2.347
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mcx",
+    "name": "MCX .300",
+    "caliber": ".300 BLK",
+    "type": "突击步枪",
+    "category": "rifle",
+    "rpm": 700,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/mcx/standard/mcx_outdoor_close.ogg",
+            "clip": "mcx_outdoor_close",
+            "duration": 1.067
+          },
+          {
+            "file": "sounds/mcx/standard/mcx_outdoor_close_01.ogg",
+            "clip": "mcx_outdoor_close_01",
+            "duration": 2.096
+          },
+          {
+            "file": "sounds/mcx/standard/mcx_outdoor_close_02.ogg",
+            "clip": "mcx_outdoor_close_02",
+            "duration": 1.987
+          },
+          {
+            "file": "sounds/mcx/standard/mcx_outdoor_close_03.ogg",
+            "clip": "mcx_outdoor_close_03",
+            "duration": 2.236
+          },
+          {
+            "file": "sounds/mcx/standard/mcx_outdoor_close_04.ogg",
+            "clip": "mcx_outdoor_close_04",
+            "duration": 2.226
+          },
+          {
+            "file": "sounds/mcx/standard/mcx_outdoor_close_05.ogg",
+            "clip": "mcx_outdoor_close_05",
+            "duration": 2.235
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/mcx/suppressed/mcx_outdoor_silenced_close_01.ogg",
+            "clip": "mcx_outdoor_silenced_close_01",
+            "duration": 2.012
+          },
+          {
+            "file": "sounds/mcx/suppressed/mcx_outdoor_silenced_close_02.ogg",
+            "clip": "mcx_outdoor_silenced_close_02",
+            "duration": 1.957
+          },
+          {
+            "file": "sounds/mcx/suppressed/mcx_outdoor_silenced_close_03.ogg",
+            "clip": "mcx_outdoor_silenced_close_03",
+            "duration": 1.913
+          },
+          {
+            "file": "sounds/mcx/suppressed/mcx_outdoor_silenced_close_04.ogg",
+            "clip": "mcx_outdoor_silenced_close_04",
+            "duration": 1.871
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（700 RPM）",
+        "clips": [
+          {
+            "file": "sounds/mcx/auto/mcx_auto_burst.ogg",
+            "clip": "mcx_auto_burst",
+            "duration": 2.665
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mdr",
+    "name": "MDR 5.56",
+    "caliber": "5.56x45",
+    "type": "突击步枪",
+    "category": "rifle",
+    "rpm": 700,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/mdr/standard/mdr_outdoor_close_01.ogg",
+            "clip": "mdr_outdoor_close_01",
+            "duration": 3.869
+          },
+          {
+            "file": "sounds/mdr/standard/mdr_outdoor_close_02.ogg",
+            "clip": "mdr_outdoor_close_02",
+            "duration": 3.978
+          },
+          {
+            "file": "sounds/mdr/standard/mdr_outdoor_close_03.ogg",
+            "clip": "mdr_outdoor_close_03",
+            "duration": 3.154
+          },
+          {
+            "file": "sounds/mdr/standard/mdr_outdoor_close_04.ogg",
+            "clip": "mdr_outdoor_close_04",
+            "duration": 3.131
+          },
+          {
+            "file": "sounds/mdr/standard/mdr_outdoor_close_05.ogg",
+            "clip": "mdr_outdoor_close_05",
+            "duration": 3.809
+          },
+          {
+            "file": "sounds/mdr/standard/mdr_outdoor_close_06.ogg",
+            "clip": "mdr_outdoor_close_06",
+            "duration": 2.937
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/mdr/suppressed/mdr_outdoor_close_silenced_01.ogg",
+            "clip": "mdr_outdoor_close_silenced_01",
+            "duration": 1.002
+          },
+          {
+            "file": "sounds/mdr/suppressed/mdr_outdoor_close_silenced_02.ogg",
+            "clip": "mdr_outdoor_close_silenced_02",
+            "duration": 0.873
+          },
+          {
+            "file": "sounds/mdr/suppressed/mdr_outdoor_close_silenced_03.ogg",
+            "clip": "mdr_outdoor_close_silenced_03",
+            "duration": 0.969
+          },
+          {
+            "file": "sounds/mdr/suppressed/mdr_outdoor_close_silenced_04.ogg",
+            "clip": "mdr_outdoor_close_silenced_04",
+            "duration": 1.001
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（700 RPM）",
+        "clips": [
+          {
+            "file": "sounds/mdr/auto/mdr_auto_burst.ogg",
+            "clip": "mdr_auto_burst",
+            "duration": 5.406
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mdr308",
+    "name": "MDR 7.62",
+    "caliber": "7.62x51",
+    "type": "突击步枪",
+    "category": "rifle",
+    "rpm": 650,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/mdr308/standard/mdr308_outdoor_close_01.ogg",
+            "clip": "mdr308_outdoor_close_01",
+            "duration": 2.872
+          },
+          {
+            "file": "sounds/mdr308/standard/mdr308_outdoor_close_02.ogg",
+            "clip": "mdr308_outdoor_close_02",
+            "duration": 3.132
+          },
+          {
+            "file": "sounds/mdr308/standard/mdr308_outdoor_close_03.ogg",
+            "clip": "mdr308_outdoor_close_03",
+            "duration": 2.668
+          },
+          {
+            "file": "sounds/mdr308/standard/mdr308_outdoor_close_04.ogg",
+            "clip": "mdr308_outdoor_close_04",
+            "duration": 2.466
+          },
+          {
+            "file": "sounds/mdr308/standard/mdr308_outdoor_close_05.ogg",
+            "clip": "mdr308_outdoor_close_05",
+            "duration": 2.71
+          },
+          {
+            "file": "sounds/mdr308/standard/mdr308_outdoor_close_06.ogg",
+            "clip": "mdr308_outdoor_close_06",
+            "duration": 2.97
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/mdr308/suppressed/mdr308_outdoor_close_silenced_01.ogg",
+            "clip": "mdr308_outdoor_close_silenced_01",
+            "duration": 1.462
+          },
+          {
+            "file": "sounds/mdr308/suppressed/mdr308_outdoor_close_silenced_02.ogg",
+            "clip": "mdr308_outdoor_close_silenced_02",
+            "duration": 1.459
+          },
+          {
+            "file": "sounds/mdr308/suppressed/mdr308_outdoor_close_silenced_03.ogg",
+            "clip": "mdr308_outdoor_close_silenced_03",
+            "duration": 1.153
+          },
+          {
+            "file": "sounds/mdr308/suppressed/mdr308_outdoor_close_silenced_04.ogg",
+            "clip": "mdr308_outdoor_close_silenced_04",
+            "duration": 1.333
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（650 RPM）",
+        "clips": [
+          {
+            "file": "sounds/mdr308/auto/mdr308_auto_burst.ogg",
+            "clip": "mdr308_auto_burst",
+            "duration": 4.594
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mutant",
+    "name": "Mk47 Mutant",
+    "caliber": "7.62x39",
+    "type": "突击步枪",
+    "category": "rifle",
+    "rpm": 650,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/mutant/standard/mutant_outdoor_close_01.ogg",
+            "clip": "mutant_outdoor_close_01",
+            "duration": 3.236
+          },
+          {
+            "file": "sounds/mutant/standard/mutant_outdoor_close_02.ogg",
+            "clip": "mutant_outdoor_close_02",
+            "duration": 3.04
+          },
+          {
+            "file": "sounds/mutant/standard/mutant_outdoor_close_03.ogg",
+            "clip": "mutant_outdoor_close_03",
+            "duration": 2.974
+          },
+          {
+            "file": "sounds/mutant/standard/mutant_outdoor_close_04.ogg",
+            "clip": "mutant_outdoor_close_04",
+            "duration": 3.069
+          },
+          {
+            "file": "sounds/mutant/standard/mutant_outdoor_close_05.ogg",
+            "clip": "mutant_outdoor_close_05",
+            "duration": 3.017
+          },
+          {
+            "file": "sounds/mutant/standard/mutant_outdoor_close_06.ogg",
+            "clip": "mutant_outdoor_close_06",
+            "duration": 2.944
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/mutant/suppressed/mutant_outdoor_silenced_close_01.ogg",
+            "clip": "mutant_outdoor_silenced_close_01",
+            "duration": 1.66
+          },
+          {
+            "file": "sounds/mutant/suppressed/mutant_outdoor_silenced_close_02.ogg",
+            "clip": "mutant_outdoor_silenced_close_02",
+            "duration": 1.609
+          },
+          {
+            "file": "sounds/mutant/suppressed/mutant_outdoor_silenced_close_03.ogg",
+            "clip": "mutant_outdoor_silenced_close_03",
+            "duration": 1.559
+          },
+          {
+            "file": "sounds/mutant/suppressed/mutant_outdoor_silenced_close_04.ogg",
+            "clip": "mutant_outdoor_silenced_close_04",
+            "duration": 1.506
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（650 RPM）",
+        "clips": [
+          {
+            "file": "sounds/mutant/auto/mutant_auto_burst.ogg",
+            "clip": "mutant_auto_burst",
+            "duration": 3.698
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rfb",
+    "name": "RFB",
+    "caliber": "7.62x51",
+    "type": "战斗步枪",
+    "category": "rifle",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/rfb/standard/rfb_fire_close.ogg",
+            "clip": "rfb_fire_close",
+            "duration": 4.772
+          },
+          {
+            "file": "sounds/rfb/standard/rfb_fire_indoor_close.ogg",
+            "clip": "rfb_fire_indoor_close",
+            "duration": 1.796
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/rfb/suppressed/rfb_fire_silenced_close.ogg",
+            "clip": "rfb_fire_silenced_close",
+            "duration": 1.931
+          },
+          {
+            "file": "sounds/rfb/suppressed/rfb_fire_indoor_silenced_close.ogg",
+            "clip": "rfb_fire_indoor_silenced_close",
+            "duration": 1.07
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rsass",
+    "name": "RSASS",
+    "caliber": "7.62x51",
+    "type": "精确射手步枪",
+    "category": "rifle",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/rsass/standard/rsass_fire_close5.ogg",
+            "clip": "rsass_fire_close5",
+            "duration": 4.323
+          },
+          {
+            "file": "sounds/rsass/standard/rsass_fire_indoor_close.ogg",
+            "clip": "rsass_fire_indoor_close",
+            "duration": 1.548
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/rsass/suppressed/rsass_close_silenced1.ogg",
+            "clip": "rsass_close_silenced1",
+            "duration": 3.113
+          },
+          {
+            "file": "sounds/rsass/suppressed/rsass_indoor_close_silenced1.ogg",
+            "clip": "rsass_indoor_close_silenced1",
+            "duration": 1.123
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fal",
+    "name": "SA-58",
+    "caliber": "7.62x51",
+    "type": "战斗步枪",
+    "category": "rifle",
+    "rpm": 700,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/fal/standard/fal_outdoor_close_01.ogg",
+            "clip": "fal_outdoor_close_01",
+            "duration": 2.368
+          },
+          {
+            "file": "sounds/fal/standard/fal_outdoor_close_02.ogg",
+            "clip": "fal_outdoor_close_02",
+            "duration": 2.293
+          },
+          {
+            "file": "sounds/fal/standard/fal_outdoor_close_03.ogg",
+            "clip": "fal_outdoor_close_03",
+            "duration": 2.73
+          },
+          {
+            "file": "sounds/fal/standard/fal_outdoor_close_04.ogg",
+            "clip": "fal_outdoor_close_04",
+            "duration": 2.372
+          },
+          {
+            "file": "sounds/fal/standard/fal_outdoor_close_05.ogg",
+            "clip": "fal_outdoor_close_05",
+            "duration": 2.375
+          },
+          {
+            "file": "sounds/fal/standard/fal_outdoor_close_06.ogg",
+            "clip": "fal_outdoor_close_06",
+            "duration": 2.365
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/fal/suppressed/fal_outdoor_close_silenced_01.ogg",
+            "clip": "fal_outdoor_close_silenced_01",
+            "duration": 2.075
+          },
+          {
+            "file": "sounds/fal/suppressed/fal_outdoor_close_silenced_02.ogg",
+            "clip": "fal_outdoor_close_silenced_02",
+            "duration": 2.373
+          },
+          {
+            "file": "sounds/fal/suppressed/fal_outdoor_close_silenced_03.ogg",
+            "clip": "fal_outdoor_close_silenced_03",
+            "duration": 2.154
+          },
+          {
+            "file": "sounds/fal/suppressed/fal_outdoor_close_silenced_04.ogg",
+            "clip": "fal_outdoor_close_silenced_04",
+            "duration": 2.148
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（700 RPM）",
+        "clips": [
+          {
+            "file": "sounds/fal/auto/fal_auto_burst.ogg",
+            "clip": "fal_auto_burst",
+            "duration": 4.159
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scar",
+    "name": "SCAR-H",
+    "caliber": "7.62x51",
+    "type": "战斗步枪",
+    "category": "rifle",
+    "rpm": 600,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/scar/standard/scar_h_outdoor_close_01.ogg",
+            "clip": "scar_h_outdoor_close_01",
+            "duration": 2.179
+          },
+          {
+            "file": "sounds/scar/standard/scar_h_outdoor_close_02.ogg",
+            "clip": "scar_h_outdoor_close_02",
+            "duration": 2.116
+          },
+          {
+            "file": "sounds/scar/standard/scar_h_outdoor_close_03.ogg",
+            "clip": "scar_h_outdoor_close_03",
+            "duration": 2.082
+          },
+          {
+            "file": "sounds/scar/standard/scar_h_outdoor_close_04.ogg",
+            "clip": "scar_h_outdoor_close_04",
+            "duration": 2.034
+          },
+          {
+            "file": "sounds/scar/standard/scar_h_outdoor_close_05.ogg",
+            "clip": "scar_h_outdoor_close_05",
+            "duration": 2.023
+          },
+          {
+            "file": "sounds/scar/standard/scar_h_outdoor_close_06.ogg",
+            "clip": "scar_h_outdoor_close_06",
+            "duration": 2.247
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/scar/suppressed/scar_h_outdoor_silenced_close_01.ogg",
+            "clip": "scar_h_outdoor_silenced_close_01",
+            "duration": 1.123
+          },
+          {
+            "file": "sounds/scar/suppressed/scar_h_outdoor_silenced_close_02.ogg",
+            "clip": "scar_h_outdoor_silenced_close_02",
+            "duration": 1.07
+          },
+          {
+            "file": "sounds/scar/suppressed/scar_h_outdoor_silenced_close_03.ogg",
+            "clip": "scar_h_outdoor_silenced_close_03",
+            "duration": 1.035
+          },
+          {
+            "file": "sounds/scar/suppressed/scar_h_outdoor_silenced_close_04.ogg",
+            "clip": "scar_h_outdoor_silenced_close_04",
+            "duration": 1.005
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（600 RPM）",
+        "clips": [
+          {
+            "file": "sounds/scar/auto/scar_auto_burst.ogg",
+            "clip": "scar_auto_burst",
+            "duration": 2.747
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sks",
+    "name": "SKS",
+    "caliber": "7.62x39",
+    "type": "半自动步枪",
+    "category": "rifle",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/sks/standard/sks_fire_close.ogg",
+            "clip": "sks_fire_close",
+            "duration": 3.607
+          },
+          {
+            "file": "sounds/sks/standard/sks_fire_indoor_close.ogg",
+            "clip": "sks_fire_indoor_close",
+            "duration": 1.703
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tx15",
+    "name": "TX-15 DML",
+    "caliber": "5.56x45",
+    "type": "精确射手步枪",
+    "category": "rifle",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/tx15/standard/tx15_fire_outdoor_close.ogg",
+            "clip": "tx15_fire_outdoor_close",
+            "duration": 2.996
+          },
+          {
+            "file": "sounds/tx15/standard/tx15_fire_indoor_close.ogg",
+            "clip": "tx15_fire_indoor_close",
+            "duration": 1.525
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/tx15/suppressed/tx15_fire_outdoor_silenced_close.ogg",
+            "clip": "tx15_fire_outdoor_silenced_close",
+            "duration": 1.946
+          },
+          {
+            "file": "sounds/tx15/suppressed/tx15_fire_indoor_silenced_close.ogg",
+            "clip": "tx15_fire_indoor_silenced_close",
+            "duration": 1.115
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m3",
+    "name": "Benelli M3",
+    "caliber": "12ga",
+    "type": "霰弹枪",
+    "category": "shotgun",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/m3/standard/m3_fire_outdoor_close.ogg",
+            "clip": "m3_fire_outdoor_close",
+            "duration": 2.538
+          },
+          {
+            "file": "sounds/m3/standard/m3_fire_indoor_close.ogg",
+            "clip": "m3_fire_indoor_close",
+            "duration": 1.966
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ks23",
+    "name": "KS-23",
+    "caliber": "23x75",
+    "type": "霰弹枪",
+    "category": "shotgun",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/ks23/standard/ks23_fire_outdoor_close.ogg",
+            "clip": "ks23_fire_outdoor_close",
+            "duration": 3.753
+          },
+          {
+            "file": "sounds/ks23/standard/ks23_fire_indoor_close.ogg",
+            "clip": "ks23_fire_indoor_close",
+            "duration": 2.206
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rem870",
+    "name": "M870",
+    "caliber": "12ga",
+    "type": "霰弹枪",
+    "category": "shotgun",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/rem870/standard/rem870_fire_close1.ogg",
+            "clip": "rem870_fire_close1",
+            "duration": 2.995
+          },
+          {
+            "file": "sounds/rem870/standard/rem870_fire_close2.ogg",
+            "clip": "rem870_fire_close2",
+            "duration": 3.792
+          },
+          {
+            "file": "sounds/rem870/standard/rem870_fire_indoor_close.ogg",
+            "clip": "rem870_fire_indoor_close",
+            "duration": 1.604
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mts255",
+    "name": "MTs-255",
+    "caliber": "12ga",
+    "type": "霰弹枪",
+    "category": "shotgun",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/mts255/standard/mts255_outdoor_close.ogg",
+            "clip": "mts255_outdoor_close",
+            "duration": 2.779
+          },
+          {
+            "file": "sounds/mts255/standard/mts255_indoor_close.ogg",
+            "clip": "mts255_indoor_close",
+            "duration": 2.205
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "moss500",
+    "name": "Mossberg 500",
+    "caliber": "12ga",
+    "type": "霰弹枪",
+    "category": "shotgun",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/moss500/standard/moss500_fire_close1.ogg",
+            "clip": "moss500_fire_close1",
+            "duration": 1.923
+          },
+          {
+            "file": "sounds/moss500/standard/moss500_fire_indoor_close.ogg",
+            "clip": "moss500_fire_indoor_close",
+            "duration": 3.154
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toz",
+    "name": "TOZ-106",
+    "caliber": "20ga",
+    "type": "霰弹枪",
+    "category": "shotgun",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/toz/standard/toz_fire_close1.ogg",
+            "clip": "toz_fire_close1",
+            "duration": 2.705
+          },
+          {
+            "file": "sounds/toz/standard/toz_fire_close2.ogg",
+            "clip": "toz_fire_close2",
+            "duration": 3.008
+          },
+          {
+            "file": "sounds/toz/standard/toz_fire_indoor_close.ogg",
+            "clip": "toz_fire_indoor_close",
+            "duration": 1.493
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "utes",
+    "name": "UTS-15",
+    "caliber": "12ga",
+    "type": "霰弹枪",
+    "category": "shotgun",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/utes/standard/utes_outdoor_close_01.ogg",
+            "clip": "utes_outdoor_close_01",
+            "duration": 4.925
+          },
+          {
+            "file": "sounds/utes/standard/utes_outdoor_close_02.ogg",
+            "clip": "utes_outdoor_close_02",
+            "duration": 4.678
+          },
+          {
+            "file": "sounds/utes/standard/utes_outdoor_close_03.ogg",
+            "clip": "utes_outdoor_close_03",
+            "duration": 4.854
+          },
+          {
+            "file": "sounds/utes/standard/utes_outdoor_close_04.ogg",
+            "clip": "utes_outdoor_close_04",
+            "duration": 4.946
+          },
+          {
+            "file": "sounds/utes/standard/utes_outdoor_close_05.ogg",
+            "clip": "utes_outdoor_close_05",
+            "duration": 4.65
+          },
+          {
+            "file": "sounds/utes/standard/utes_outdoor_close_06.ogg",
+            "clip": "utes_outdoor_close_06",
+            "duration": 4.809
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mp5",
+    "name": "MP5",
+    "caliber": "9x19",
+    "type": "冲锋枪",
+    "category": "smg",
+    "rpm": 800,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/mp5/standard/mp5_outdoor_close_01.ogg",
+            "clip": "mp5_outdoor_close_01",
+            "duration": 2.534
+          },
+          {
+            "file": "sounds/mp5/standard/mp5_outdoor_close_02.ogg",
+            "clip": "mp5_outdoor_close_02",
+            "duration": 2.769
+          },
+          {
+            "file": "sounds/mp5/standard/mp5_outdoor_close_03.ogg",
+            "clip": "mp5_outdoor_close_03",
+            "duration": 2.319
+          },
+          {
+            "file": "sounds/mp5/standard/mp5_outdoor_close_04.ogg",
+            "clip": "mp5_outdoor_close_04",
+            "duration": 2.655
+          },
+          {
+            "file": "sounds/mp5/standard/mp5_outdoor_close_05.ogg",
+            "clip": "mp5_outdoor_close_05",
+            "duration": 2.658
+          },
+          {
+            "file": "sounds/mp5/standard/mp5_outdoor_close_06.ogg",
+            "clip": "mp5_outdoor_close_06",
+            "duration": 2.317
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/mp5/suppressed/mp5_outdoor_close_silenced_01.ogg",
+            "clip": "mp5_outdoor_close_silenced_01",
+            "duration": 0.964
+          },
+          {
+            "file": "sounds/mp5/suppressed/mp5_outdoor_close_silenced_02.ogg",
+            "clip": "mp5_outdoor_close_silenced_02",
+            "duration": 0.911
+          },
+          {
+            "file": "sounds/mp5/suppressed/mp5_outdoor_close_silenced_03.ogg",
+            "clip": "mp5_outdoor_close_silenced_03",
+            "duration": 0.991
+          },
+          {
+            "file": "sounds/mp5/suppressed/mp5_outdoor_close_silenced_04.ogg",
+            "clip": "mp5_outdoor_close_silenced_04",
+            "duration": 1.019
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（800 RPM）",
+        "clips": [
+          {
+            "file": "sounds/mp5/auto/mp5_auto_burst.ogg",
+            "clip": "mp5_auto_burst",
+            "duration": 3.144
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mp7",
+    "name": "MP7",
+    "caliber": "4.6x30",
+    "type": "冲锋枪",
+    "category": "smg",
+    "rpm": 950,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/mp7/standard/mp7_outdoor_close_01.ogg",
+            "clip": "mp7_outdoor_close_01",
+            "duration": 1.964
+          },
+          {
+            "file": "sounds/mp7/standard/mp7_outdoor_close_02.ogg",
+            "clip": "mp7_outdoor_close_02",
+            "duration": 1.663
+          },
+          {
+            "file": "sounds/mp7/standard/mp7_outdoor_close_03.ogg",
+            "clip": "mp7_outdoor_close_03",
+            "duration": 2.05
+          },
+          {
+            "file": "sounds/mp7/standard/mp7_outdoor_close_04.ogg",
+            "clip": "mp7_outdoor_close_04",
+            "duration": 1.819
+          },
+          {
+            "file": "sounds/mp7/standard/mp7_outdoor_close_05.ogg",
+            "clip": "mp7_outdoor_close_05",
+            "duration": 1.908
+          },
+          {
+            "file": "sounds/mp7/standard/mp7_outdoor_close_06.ogg",
+            "clip": "mp7_outdoor_close_06",
+            "duration": 2.196
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/mp7/suppressed/mp7_outdoor_close_silenced_01.ogg",
+            "clip": "mp7_outdoor_close_silenced_01",
+            "duration": 1.024
+          },
+          {
+            "file": "sounds/mp7/suppressed/mp7_outdoor_close_silenced_02.ogg",
+            "clip": "mp7_outdoor_close_silenced_02",
+            "duration": 0.775
+          },
+          {
+            "file": "sounds/mp7/suppressed/mp7_outdoor_close_silenced_03.ogg",
+            "clip": "mp7_outdoor_close_silenced_03",
+            "duration": 1.046
+          },
+          {
+            "file": "sounds/mp7/suppressed/mp7_outdoor_close_silenced_04.ogg",
+            "clip": "mp7_outdoor_close_silenced_04",
+            "duration": 0.896
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（950 RPM）",
+        "clips": [
+          {
+            "file": "sounds/mp7/auto/mp7_auto_burst.ogg",
+            "clip": "mp7_auto_burst",
+            "duration": 3.512
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mp9",
+    "name": "MP9",
+    "caliber": "9x19",
+    "type": "冲锋枪",
+    "category": "smg",
+    "rpm": 900,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/mp9/standard/mp9_outdoor_close_01.ogg",
+            "clip": "mp9_outdoor_close_01",
+            "duration": 2.417
+          },
+          {
+            "file": "sounds/mp9/standard/mp9_outdoor_close_02.ogg",
+            "clip": "mp9_outdoor_close_02",
+            "duration": 2.395
+          },
+          {
+            "file": "sounds/mp9/standard/mp9_outdoor_close_03.ogg",
+            "clip": "mp9_outdoor_close_03",
+            "duration": 2.36
+          },
+          {
+            "file": "sounds/mp9/standard/mp9_outdoor_close_04.ogg",
+            "clip": "mp9_outdoor_close_04",
+            "duration": 2.329
+          },
+          {
+            "file": "sounds/mp9/standard/mp9_outdoor_close_05.ogg",
+            "clip": "mp9_outdoor_close_05",
+            "duration": 2.299
+          },
+          {
+            "file": "sounds/mp9/standard/mp9_outdoor_close_06.ogg",
+            "clip": "mp9_outdoor_close_06",
+            "duration": 2.45
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/mp9/suppressed/mp9_outdoor_close_silenced_01.ogg",
+            "clip": "mp9_outdoor_close_silenced_01",
+            "duration": 1.574
+          },
+          {
+            "file": "sounds/mp9/suppressed/mp9_outdoor_close_silenced_02.ogg",
+            "clip": "mp9_outdoor_close_silenced_02",
+            "duration": 1.544
+          },
+          {
+            "file": "sounds/mp9/suppressed/mp9_outdoor_close_silenced_03.ogg",
+            "clip": "mp9_outdoor_close_silenced_03",
+            "duration": 1.529
+          },
+          {
+            "file": "sounds/mp9/suppressed/mp9_outdoor_close_silenced_04.ogg",
+            "clip": "mp9_outdoor_close_silenced_04",
+            "duration": 1.493
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（900 RPM）",
+        "clips": [
+          {
+            "file": "sounds/mp9/auto/mp9_auto_burst.ogg",
+            "clip": "mp9_auto_burst",
+            "duration": 3.784
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mpx",
+    "name": "MPX",
+    "caliber": "9x19",
+    "type": "冲锋枪",
+    "category": "smg",
+    "rpm": 850,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/mpx/standard/mpx_outdoor_close_01.ogg",
+            "clip": "mpx_outdoor_close_01",
+            "duration": 3.934
+          },
+          {
+            "file": "sounds/mpx/standard/mpx_outdoor_close_02.ogg",
+            "clip": "mpx_outdoor_close_02",
+            "duration": 3.88
+          },
+          {
+            "file": "sounds/mpx/standard/mpx_outdoor_close_03.ogg",
+            "clip": "mpx_outdoor_close_03",
+            "duration": 3.842
+          },
+          {
+            "file": "sounds/mpx/standard/mpx_outdoor_close_04.ogg",
+            "clip": "mpx_outdoor_close_04",
+            "duration": 3.81
+          },
+          {
+            "file": "sounds/mpx/standard/mpx_outdoor_close_05.ogg",
+            "clip": "mpx_outdoor_close_05",
+            "duration": 3.756
+          },
+          {
+            "file": "sounds/mpx/standard/mpx_outdoor_close_06.ogg",
+            "clip": "mpx_outdoor_close_06",
+            "duration": 3.989
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/mpx/suppressed/mpx_outdoor_close_silenced_01.ogg",
+            "clip": "mpx_outdoor_close_silenced_01",
+            "duration": 1.499
+          },
+          {
+            "file": "sounds/mpx/suppressed/mpx_outdoor_close_silenced_02.ogg",
+            "clip": "mpx_outdoor_close_silenced_02",
+            "duration": 1.47
+          },
+          {
+            "file": "sounds/mpx/suppressed/mpx_outdoor_close_silenced_03.ogg",
+            "clip": "mpx_outdoor_close_silenced_03",
+            "duration": 1.447
+          },
+          {
+            "file": "sounds/mpx/suppressed/mpx_outdoor_close_silenced_04.ogg",
+            "clip": "mpx_outdoor_close_silenced_04",
+            "duration": 1.422
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（850 RPM）",
+        "clips": [
+          {
+            "file": "sounds/mpx/auto/mpx_auto_burst.ogg",
+            "clip": "mpx_auto_burst",
+            "duration": 4.341
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p90",
+    "name": "P90",
+    "caliber": "5.7x28",
+    "type": "冲锋枪",
+    "category": "smg",
+    "rpm": 900,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/p90/standard/p90_outdoor_close_01.ogg",
+            "clip": "p90_outdoor_close_01",
+            "duration": 1.948
+          },
+          {
+            "file": "sounds/p90/standard/p90_outdoor_close_02.ogg",
+            "clip": "p90_outdoor_close_02",
+            "duration": 1.928
+          },
+          {
+            "file": "sounds/p90/standard/p90_outdoor_close_03.ogg",
+            "clip": "p90_outdoor_close_03",
+            "duration": 1.915
+          },
+          {
+            "file": "sounds/p90/standard/p90_outdoor_close_04.ogg",
+            "clip": "p90_outdoor_close_04",
+            "duration": 1.895
+          },
+          {
+            "file": "sounds/p90/standard/p90_outdoor_close_05.ogg",
+            "clip": "p90_outdoor_close_05",
+            "duration": 1.878
+          },
+          {
+            "file": "sounds/p90/standard/p90_outdoor_close_06.ogg",
+            "clip": "p90_outdoor_close_06",
+            "duration": 1.866
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/p90/suppressed/p90_outdoor_close_silenced_01.ogg",
+            "clip": "p90_outdoor_close_silenced_01",
+            "duration": 0.937
+          },
+          {
+            "file": "sounds/p90/suppressed/p90_outdoor_close_silenced_02.ogg",
+            "clip": "p90_outdoor_close_silenced_02",
+            "duration": 0.921
+          },
+          {
+            "file": "sounds/p90/suppressed/p90_outdoor_close_silenced_03.ogg",
+            "clip": "p90_outdoor_close_silenced_03",
+            "duration": 0.907
+          },
+          {
+            "file": "sounds/p90/suppressed/p90_outdoor_close_silenced_04.ogg",
+            "clip": "p90_outdoor_close_silenced_04",
+            "duration": 0.899
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（900 RPM）",
+        "clips": [
+          {
+            "file": "sounds/p90/auto/p90_auto_burst.ogg",
+            "clip": "p90_auto_burst",
+            "duration": 3.281
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vityaz",
+    "name": "PP-19-01",
+    "caliber": "9x19",
+    "type": "冲锋枪",
+    "category": "smg",
+    "rpm": 700,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/vityaz/standard/vityaz_outdoor_close_oneshot_01.ogg",
+            "clip": "vityaz_outdoor_close_oneshot_01",
+            "duration": 2.333
+          },
+          {
+            "file": "sounds/vityaz/standard/vityaz_outdoor_close_oneshot_02.ogg",
+            "clip": "vityaz_outdoor_close_oneshot_02",
+            "duration": 2.337
+          },
+          {
+            "file": "sounds/vityaz/standard/vityaz_outdoor_close_oneshot_03.ogg",
+            "clip": "vityaz_outdoor_close_oneshot_03",
+            "duration": 2.338
+          },
+          {
+            "file": "sounds/vityaz/standard/vityaz_outdoor_close_oneshot_04.ogg",
+            "clip": "vityaz_outdoor_close_oneshot_04",
+            "duration": 2.337
+          },
+          {
+            "file": "sounds/vityaz/standard/vityaz_outdoor_close_oneshot_05.ogg",
+            "clip": "vityaz_outdoor_close_oneshot_05",
+            "duration": 2.337
+          },
+          {
+            "file": "sounds/vityaz/standard/vityaz_outdoor_close_oneshot_06.ogg",
+            "clip": "vityaz_outdoor_close_oneshot_06",
+            "duration": 2.337
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/vityaz/suppressed/vityaz_outdoor_close_silenced_oneshot_02.ogg",
+            "clip": "vityaz_outdoor_close_silenced_oneshot_02",
+            "duration": 0.534
+          },
+          {
+            "file": "sounds/vityaz/suppressed/vityaz_outdoor_close_silenced_oneshot_03.ogg",
+            "clip": "vityaz_outdoor_close_silenced_oneshot_03",
+            "duration": 0.535
+          },
+          {
+            "file": "sounds/vityaz/suppressed/vityaz_outdoor_close_silenced_oneshot_04.ogg",
+            "clip": "vityaz_outdoor_close_silenced_oneshot_04",
+            "duration": 0.534
+          },
+          {
+            "file": "sounds/vityaz/suppressed/vityaz_outdoor_close_silenced_oneshot_05.ogg",
+            "clip": "vityaz_outdoor_close_silenced_oneshot_05",
+            "duration": 0.534
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（700 RPM）",
+        "clips": [
+          {
+            "file": "sounds/vityaz/auto/vityaz_auto_burst.ogg",
+            "clip": "vityaz_auto_burst",
+            "duration": 2.766
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kedr",
+    "name": "PP-91 Kedr",
+    "caliber": "9x18",
+    "type": "冲锋枪",
+    "category": "smg",
+    "rpm": 1000,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/kedr/standard/kedr_outdoor_close_01.ogg",
+            "clip": "kedr_outdoor_close_01",
+            "duration": 3.239
+          },
+          {
+            "file": "sounds/kedr/standard/kedr_outdoor_close_02.ogg",
+            "clip": "kedr_outdoor_close_02",
+            "duration": 3.25
+          },
+          {
+            "file": "sounds/kedr/standard/kedr_outdoor_close_03.ogg",
+            "clip": "kedr_outdoor_close_03",
+            "duration": 2.858
+          },
+          {
+            "file": "sounds/kedr/standard/kedr_outdoor_close_04.ogg",
+            "clip": "kedr_outdoor_close_04",
+            "duration": 3.003
+          },
+          {
+            "file": "sounds/kedr/standard/kedr_outdoor_close_05.ogg",
+            "clip": "kedr_outdoor_close_05",
+            "duration": 3.192
+          },
+          {
+            "file": "sounds/kedr/standard/kedr_outdoor_close_06.ogg",
+            "clip": "kedr_outdoor_close_06",
+            "duration": 3.17
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/kedr/suppressed/kedr_outdoor_close_silenced_01.ogg",
+            "clip": "kedr_outdoor_close_silenced_01",
+            "duration": 1.662
+          },
+          {
+            "file": "sounds/kedr/suppressed/kedr_outdoor_close_silenced_02.ogg",
+            "clip": "kedr_outdoor_close_silenced_02",
+            "duration": 1.65
+          },
+          {
+            "file": "sounds/kedr/suppressed/kedr_outdoor_close_silenced_03.ogg",
+            "clip": "kedr_outdoor_close_silenced_03",
+            "duration": 1.636
+          },
+          {
+            "file": "sounds/kedr/suppressed/kedr_outdoor_close_silenced_04.ogg",
+            "clip": "kedr_outdoor_close_silenced_04",
+            "duration": 1.676
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（1000 RPM）",
+        "clips": [
+          {
+            "file": "sounds/kedr/auto/kedr_auto_burst.ogg",
+            "clip": "kedr_auto_burst",
+            "duration": 3.55
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ppsh",
+    "name": "PPSh-41",
+    "caliber": "7.62x25",
+    "type": "冲锋枪",
+    "category": "smg",
+    "rpm": 900,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/ppsh/standard/ppsh_outdoor_close_01.ogg",
+            "clip": "ppsh_outdoor_close_01",
+            "duration": 2.411
+          },
+          {
+            "file": "sounds/ppsh/standard/ppsh_outdoor_close_02.ogg",
+            "clip": "ppsh_outdoor_close_02",
+            "duration": 2.384
+          },
+          {
+            "file": "sounds/ppsh/standard/ppsh_outdoor_close_03.ogg",
+            "clip": "ppsh_outdoor_close_03",
+            "duration": 2.346
+          },
+          {
+            "file": "sounds/ppsh/standard/ppsh_outdoor_close_04.ogg",
+            "clip": "ppsh_outdoor_close_04",
+            "duration": 2.326
+          },
+          {
+            "file": "sounds/ppsh/standard/ppsh_outdoor_close_05.ogg",
+            "clip": "ppsh_outdoor_close_05",
+            "duration": 2.299
+          },
+          {
+            "file": "sounds/ppsh/standard/ppsh_outdoor_close_06.ogg",
+            "clip": "ppsh_outdoor_close_06",
+            "duration": 2.441
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（900 RPM）",
+        "clips": [
+          {
+            "file": "sounds/ppsh/auto/ppsh_auto_burst.ogg",
+            "clip": "ppsh_auto_burst",
+            "duration": 3.775
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stm9",
+    "name": "STM-9",
+    "caliber": "9x19",
+    "type": "冲锋枪",
+    "category": "smg",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/stm9/standard/stm9_fire_outdoor_close.ogg",
+            "clip": "stm9_fire_outdoor_close",
+            "duration": 1.91
+          },
+          {
+            "file": "sounds/stm9/standard/stm9_fire_indoor_close.ogg",
+            "clip": "stm9_fire_indoor_close",
+            "duration": 1.293
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/stm9/suppressed/stm9_fire_outdoor_silenced_close.ogg",
+            "clip": "stm9_fire_outdoor_silenced_close",
+            "duration": 1.346
+          },
+          {
+            "file": "sounds/stm9/suppressed/stm9_fire_indoor_silenced_close.ogg",
+            "clip": "stm9_fire_indoor_silenced_close",
+            "duration": 0.863
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ump",
+    "name": "UMP .45",
+    "caliber": ".45 ACP",
+    "type": "冲锋枪",
+    "category": "smg",
+    "rpm": 600,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/ump/standard/ump_outdoor_close_01.ogg",
+            "clip": "ump_outdoor_close_01",
+            "duration": 2.255
+          },
+          {
+            "file": "sounds/ump/standard/ump_outdoor_close_02.ogg",
+            "clip": "ump_outdoor_close_02",
+            "duration": 2.182
+          },
+          {
+            "file": "sounds/ump/standard/ump_outdoor_close_03.ogg",
+            "clip": "ump_outdoor_close_03",
+            "duration": 2.142
+          },
+          {
+            "file": "sounds/ump/standard/ump_outdoor_close_04.ogg",
+            "clip": "ump_outdoor_close_04",
+            "duration": 2.079
+          },
+          {
+            "file": "sounds/ump/standard/ump_outdoor_close_05.ogg",
+            "clip": "ump_outdoor_close_05",
+            "duration": 2.048
+          },
+          {
+            "file": "sounds/ump/standard/ump_outdoor_close_06.ogg",
+            "clip": "ump_outdoor_close_06",
+            "duration": 1.88
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/ump/suppressed/ump_outdoor_silenced_close_01.ogg",
+            "clip": "ump_outdoor_silenced_close_01",
+            "duration": 0.95
+          },
+          {
+            "file": "sounds/ump/suppressed/ump_outdoor_silenced_close_02.ogg",
+            "clip": "ump_outdoor_silenced_close_02",
+            "duration": 0.977
+          },
+          {
+            "file": "sounds/ump/suppressed/ump_outdoor_silenced_close_03.ogg",
+            "clip": "ump_outdoor_silenced_close_03",
+            "duration": 0.869
+          },
+          {
+            "file": "sounds/ump/suppressed/ump_outdoor_silenced_close_04.ogg",
+            "clip": "ump_outdoor_silenced_close_04",
+            "duration": 1.025
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（600 RPM）",
+        "clips": [
+          {
+            "file": "sounds/ump/auto/ump_auto_burst.ogg",
+            "clip": "ump_auto_burst",
+            "duration": 2.755
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vector",
+    "name": "Vector .45",
+    "caliber": ".45 ACP",
+    "type": "冲锋枪",
+    "category": "smg",
+    "rpm": 1100,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/vector/standard/vector_45__outdoor_close_01.ogg",
+            "clip": "vector_45__outdoor_close_01",
+            "duration": 2.511
+          },
+          {
+            "file": "sounds/vector/standard/vector_45__outdoor_close_02.ogg",
+            "clip": "vector_45__outdoor_close_02",
+            "duration": 2.466
+          },
+          {
+            "file": "sounds/vector/standard/vector_45__outdoor_close_03.ogg",
+            "clip": "vector_45__outdoor_close_03",
+            "duration": 2.484
+          },
+          {
+            "file": "sounds/vector/standard/vector_45__outdoor_close_04.ogg",
+            "clip": "vector_45__outdoor_close_04",
+            "duration": 2.438
+          },
+          {
+            "file": "sounds/vector/standard/vector_45__outdoor_close_05.ogg",
+            "clip": "vector_45__outdoor_close_05",
+            "duration": 2.481
+          },
+          {
+            "file": "sounds/vector/standard/vector_45__outdoor_close_06.ogg",
+            "clip": "vector_45__outdoor_close_06",
+            "duration": 2.447
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/vector/suppressed/vector_45_outdoor_silenced_close_01.ogg",
+            "clip": "vector_45_outdoor_silenced_close_01",
+            "duration": 0.926
+          },
+          {
+            "file": "sounds/vector/suppressed/vector_45_outdoor_silenced_close_02.ogg",
+            "clip": "vector_45_outdoor_silenced_close_02",
+            "duration": 0.938
+          },
+          {
+            "file": "sounds/vector/suppressed/vector_45_outdoor_silenced_close_03.ogg",
+            "clip": "vector_45_outdoor_silenced_close_03",
+            "duration": 0.952
+          },
+          {
+            "file": "sounds/vector/suppressed/vector_45_outdoor_silenced_close_04.ogg",
+            "clip": "vector_45_outdoor_silenced_close_04",
+            "duration": 0.974
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（1100 RPM）",
+        "clips": [
+          {
+            "file": "sounds/vector/auto/vector_auto_burst.ogg",
+            "clip": "vector_auto_burst",
+            "duration": 2.783
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rem700",
+    "name": "M700",
+    "caliber": "7.62x51",
+    "type": "栓动步枪",
+    "category": "sniper",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/rem700/standard/rem700_outdoor_close1.ogg",
+            "clip": "rem700_outdoor_close1",
+            "duration": 4.914
+          },
+          {
+            "file": "sounds/rem700/standard/rem700_indoor_close1.ogg",
+            "clip": "rem700_indoor_close1",
+            "duration": 2.309
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/rem700/suppressed/rem700_outdoor_silenced_close.ogg",
+            "clip": "rem700_outdoor_silenced_close",
+            "duration": 2.164
+          },
+          {
+            "file": "sounds/rem700/suppressed/rem700_indoor_silenced_close1.ogg",
+            "clip": "rem700_indoor_silenced_close1",
+            "duration": 1.568
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mosin",
+    "name": "Mosin",
+    "caliber": "7.62x54R",
+    "type": "栓动步枪",
+    "category": "sniper",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/mosin/standard/mosin_outdoor_close1.ogg",
+            "clip": "mosin_outdoor_close1",
+            "duration": 2.847
+          },
+          {
+            "file": "sounds/mosin/standard/mosin_indoor_close1.ogg",
+            "clip": "mosin_indoor_close1",
+            "duration": 1.903
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/mosin/suppressed/mosin_outdoor_silenced_close1.ogg",
+            "clip": "mosin_outdoor_silenced_close1",
+            "duration": 2.919
+          },
+          {
+            "file": "sounds/mosin/suppressed/mosin_indoor_silenced_close1.ogg",
+            "clip": "mosin_indoor_silenced_close1",
+            "duration": 1.314
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "svd",
+    "name": "SVD-S",
+    "caliber": "7.62x54R",
+    "type": "狙击步枪",
+    "category": "sniper",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/svd/standard/svd_fire_close.ogg",
+            "clip": "svd_fire_close",
+            "duration": 2.703
+          },
+          {
+            "file": "sounds/svd/standard/svd_fire_indoor_close.ogg",
+            "clip": "svd_fire_indoor_close",
+            "duration": 2.127
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/svd/suppressed/svd_fire_close_silenced.ogg",
+            "clip": "svd_fire_close_silenced",
+            "duration": 2.017
+          },
+          {
+            "file": "sounds/svd/suppressed/svd_fire_indoor_silenced_close.ogg",
+            "clip": "svd_fire_indoor_silenced_close",
+            "duration": 1.413
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t5000",
+    "name": "T-5000M",
+    "caliber": "7.62x51",
+    "type": "栓动步枪",
+    "category": "sniper",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/t5000/standard/t5000_fire_close.ogg",
+            "clip": "t5000_fire_close",
+            "duration": 3.791
+          },
+          {
+            "file": "sounds/t5000/standard/t5000_fire_indoor_close.ogg",
+            "clip": "t5000_fire_indoor_close",
+            "duration": 1.758
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/t5000/suppressed/t5000_fire_silenced_close.ogg",
+            "clip": "t5000_fire_silenced_close",
+            "duration": 2.084
+          },
+          {
+            "file": "sounds/t5000/suppressed/t5000_fire_silenced_indoor_close.ogg",
+            "clip": "t5000_fire_silenced_indoor_close",
+            "duration": 1.066
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpo215",
+    "name": "VPO-215",
+    "caliber": ".366",
+    "type": "栓动步枪",
+    "category": "sniper",
+    "rpm": null,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/vpo215/standard/vpo215_fire_close.ogg",
+            "clip": "vpo215_fire_close",
+            "duration": 3.066
+          },
+          {
+            "file": "sounds/vpo215/standard/vpo215_fire_indoor_close.ogg",
+            "clip": "vpo215_fire_indoor_close",
+            "duration": 1.66
+          }
+        ]
+      },
+      {
+        "key": "suppressed",
+        "label": "消音",
+        "clips": [
+          {
+            "file": "sounds/vpo215/suppressed/vpo215_fire_silenced_close.ogg",
+            "clip": "vpo215_fire_silenced_close",
+            "duration": 1.544
+          },
+          {
+            "file": "sounds/vpo215/suppressed/vpo215_fire_silenced_indoor_close.ogg",
+            "clip": "vpo215_fire_silenced_indoor_close",
+            "duration": 1.305
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vss",
+    "name": "VSS Vintorez",
+    "caliber": "9x39",
+    "type": "特种步枪",
+    "category": "special",
+    "rpm": 700,
+    "groups": [
+      {
+        "key": "standard",
+        "label": "标准",
+        "clips": [
+          {
+            "file": "sounds/vss/standard/vss_outdoor_close_01.ogg",
+            "clip": "vss_outdoor_close_01",
+            "duration": 1.793
+          },
+          {
+            "file": "sounds/vss/standard/vss_outdoor_close_02.ogg",
+            "clip": "vss_outdoor_close_02",
+            "duration": 1.78
+          },
+          {
+            "file": "sounds/vss/standard/vss_outdoor_close_03.ogg",
+            "clip": "vss_outdoor_close_03",
+            "duration": 1.832
+          },
+          {
+            "file": "sounds/vss/standard/vss_outdoor_close_04.ogg",
+            "clip": "vss_outdoor_close_04",
+            "duration": 1.75
+          },
+          {
+            "file": "sounds/vss/standard/vss_outdoor_close_05.ogg",
+            "clip": "vss_outdoor_close_05",
+            "duration": 1.751
+          },
+          {
+            "file": "sounds/vss/standard/vss_outdoor_close_06.ogg",
+            "clip": "vss_outdoor_close_06",
+            "duration": 1.68
+          }
+        ]
+      },
+      {
+        "key": "auto",
+        "label": "连发（700 RPM）",
+        "clips": [
+          {
+            "file": "sounds/vss/auto/vss_auto_burst.ogg",
+            "clip": "vss_auto_burst",
+            "duration": 2.261
+          }
+        ]
+      }
+    ]
+  }
+]
